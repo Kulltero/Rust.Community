@@ -1,5 +1,5 @@
 # Components: Countdown
-**< [Previous Component](/docs/components/NeedsX.md)** | **[Back to Components](/docs/components/README.md)** | **[Next Component](/docs/components/README.md) >**
+**< [Previous Component](/docs/components/NeedsX.md)** | **[Back to Components](/docs/components/README.md)**
 
 - Identifier: `Countdown`
 - Category: **Misc**
@@ -36,9 +36,9 @@ Examples:
 - to count Up set your `startTime` lower than your `endTime`
 
 
-**< [Previous Component](/docs/components/NeedsX.md)** | **[Back to Components](/docs/components/README.md)** | **[Next Component](/docs/components/README.md) >**
+**< [Previous Component](/docs/components/NeedsX.md)** | **[Back to Components](/docs/components/README.md)** 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNzIzOTgyNCwyMDg5NTAzNDQ0LC0zND
-YwNzg4NywtMTY5ODQ5ODYyNywzNzE3NTIyMTgsNTI5ODU5OTgz
-XX0=
+eyJoaXN0b3J5IjpbLTE1NzM2NTY1MTAsMjA4OTUwMzQ0NCwtMz
+Q2MDc4ODcsLTE2OTg0OTg2MjcsMzcxNzUyMjE4LDUyOTg1OTk4
+M119
 -->
