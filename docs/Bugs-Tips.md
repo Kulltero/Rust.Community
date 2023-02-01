@@ -9,23 +9,23 @@ When working with the CUI System you will often encounter weird Bugs & Situation
 - [Bugs](#bugs)
 - [Tricks](#tricks)
 
-# Common Error Messages
-> these errors will appear in your client console when testing the UI, make sure to test for these before releasing your mod
 
-### AddUI: Unknown Parent for *name*:  *parent*
-this happens when the parent you supplied in your panel Payload doesn't exist. double-check for spelling mistakes, and formatting issues & ensure your parent appears in your JSON list before the Panel you get this error on.
+# Common Error Messages
+> these errors will appear in your client console when testing the UI, make sure to test for these before releasing your mod 
+
+### AddUI: Unknown Parent for *name*: *parent*
+this happens when the parent you supplied in your panel Payload doesn't exist. Double-check for spelling mistakes, and formatting issues & ensure your parent appears in your JSON list before the Panel you get this error on.
 
 
 
 ---
 
 ### Error downloading image: *URL* ( *error* )
-the Client couldn't download your Image, double check your URL & look at the error part within the brackets for what could cause it.
+the Client couldn't download your Image, double-check your URL & look at the error part within the brackets for what could cause it.
 
 
 
 ---
-
 
 ### A GameObject can only contain one 'Graphic' component.
 
@@ -35,6 +35,7 @@ This error indicates that you're trying to add multiple Unity Components that de
 
 
 ### Orphaned UI Panels, UI that Can't be Destroyed, or Ghost Panels. 
+
 **Symptom:** you have 1 or more panels that are stuck on your Screen and can't be removed by Calling **DestroyUI** with their Name. 
 
 **Cause:** you have 2 or more panels that shared the same name & were active at the same time. If these are parented directly to a Layer and one is destroyed, the other Panel Can't be destroyed anymore. The only way to remove the UI Panel from your Screen is by reconnecting. Double-check your UI and ensure any Panel directly parented to a Layer has a unique Name. Also, ensure that you don't accidentally send the same UI twice.
@@ -45,6 +46,7 @@ This error indicates that you're trying to add multiple Unity Components that de
 
 
 ### Flickering when destroying & re-sending UI on the same frame. 
+
 **Symptom:** when updating Part of your UI. the Player gets a noticeable Delay between the old UI being destroyed & the new UI being created. 
 
 **Cause:** the presumed cause of this issue is the Server Delaying your AddUI Packet to the next Network Cycle. This happens very unpredictably, but is more likely with larger UI Updates. The solution is to use the `destroyUi` field on your panel Payload, it works the same way a DestroyUI call works, but is combined with your panel Payload to prevent network scheduling from creating the flickering issue.
@@ -130,8 +132,8 @@ a RectTransform Example that covers the Belt-bar
 
 **< [Previous Topic](/docs/components/README.md)** | **[Back to the Start](/README.md)**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzODc2NjAwMiwtMTc2NzQ4NjcyOCwtMz
-I4MjE1ODIyLC0xMzI3OTA0NTk5LC0yMjQyMDk5MDMsLTgzOTk1
-MDIyNiwtMjAxMDY5NDUyOCwxMjI4NzQxNzQsMjAxOTA0Njg0N1
-19
+eyJoaXN0b3J5IjpbODc1MTYxMTMsLTE3Njc0ODY3MjgsLTMyOD
+IxNTgyMiwtMTMyNzkwNDU5OSwtMjI0MjA5OTAzLC04Mzk5NTAy
+MjYsLTIwMTA2OTQ1MjgsMTIyODc0MTc0LDIwMTkwNDY4NDddfQ
+==
 -->
