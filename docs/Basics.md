@@ -22,14 +22,16 @@ the JSON Schema to send UI to the Player consists of a List of Elements, where e
 | :-- | :------- | :------------------- |
 | `name` | string | the identifier of your panel, needed when destroying UI or adding panels inside this one |
 | `parent` | string | tells the client which Panel or Layer to Parent to |
-| `components` | List of Components | One or more Components, without these there's no point in sending a panel |
-| `fadeOut` | float | makes the Panel fade out instead of disappearing immediately. *Currently doesn't fade out any child Panels* |
-| `destroyUi` | string | destroys the Panel specified in the string before creating your Panel. useful for updating UI |
+| `components` | One or more Components, without these there’s no point in sending a panel |
+| `fadeOut` | float | Makes the Panel fade out instead of disappearing immediately.  _Currently doesn’t fade out any child panels._ |
+| `destroyUi` | string | Destroys the Panel specified in the string before creating your Panel. Useful for updating UI. |
+
 
 ### About Naming
-It's recommended to always name your Panels *something*, this is because the CUI System doesn't support multiple Panels with the same name and may cause *Ghost Panels* which cant be destroyed.
 
-It's also recommended to prefix the Name of your Panel with something unique to your Mod, which ensures there are no accidental name Conflicts with other Mods
+It’s recommended to always name your Panels  _something_, this is because the CUI System doesn’t support multiple Panels with the same name and may cause  _Ghost Panels_  which can't be destroyed.
+
+It’s also recommended to prefix the Name of your Panel with something unique to your Mod, which ensures there are no accidental name Conflicts with other Mods
 
 
 ## Sending & destroying UI
@@ -53,16 +55,16 @@ var community = CommunityEntity.ServerInstance;
 SendInfo sendInfo = new SendInfo(player.net.connection);
 community.ClientRPCEx<string>(sendInfo, null, "DestroyUI", panel);
 ```
-When destroying a Panel, all child Panels will also get destroyed.
-> your Modding Framework may have helper Methods to simplify these steps.
+When destroying a Panel, all child panels will also get destroyed.
+> Your Modding Framework may have helper Methods to simplify these steps.
 
 ----
-the next Topic explains Components in detail
+The next Topic explains Components in detail
 
 **[Back to the Start](/README.md)** | **[Next Topic](/docs/components/README.md) >**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk3Mjg0MDMwLDg5NDU4Njk0OCwtMTA2ND
-Y5NTM5MiwtNDIwNDgzNiwtMTMyMTk5MzQwMiw0NzA2NjcxMTks
-Njg4NjUyODAsLTExNjU4ODM5NjNdfQ==
+eyJoaXN0b3J5IjpbMTE0NzI0MjU3OCw4OTcyODQwMzAsODk0NT
+g2OTQ4LC0xMDY0Njk1MzkyLC00MjA0ODM2LC0xMzIxOTkzNDAy
+LDQ3MDY2NzExOSw2ODg2NTI4MCwtMTE2NTg4Mzk2M119
 -->
