@@ -42,11 +42,11 @@ The TextAnchor enum has the following options available
 | `MiddleLeft` | `MiddleCenter` | `MiddleRight` |
 | `LowerLeft`  | `LowerCenter`  | `LowerRight`  |
 
-### VerticalWrapMode options
+### VerticalWrapMode Options:
 | Option | Notes |
 | :----- | :---- |
-| 'Truncate'||
-
+| 'Truncate'| Text will be clipped when reaching the bottom. |
+| 'Overflow'| Text will continue to generate past the bottom edge of the panel. |
 
 ## Using Unity RichText
 Rust Allows you to use Unity  **[Rich Text](https://docs.unity3d.com/2021.3/Documentation/Manual/StyledText.html)**  to give you more control over text styling. This lets you empathize Paragraphs, Sentences, Words & individual Letters.
@@ -67,8 +67,8 @@ For colors, Unity Supports an assortment of named Colors you can find in  **[thi
 
 **< [Previous Component](/docs/components/UnityEngine.UI.Image.md)** | **[Back to Components](/docs/components/README.md)** | **[Next Component](/docs/components/UnityEngine.UI.Outline.md) >**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MjQ2MTgwNCwtODQ1OTg0NDYsMTA2OT
-kzMTIzNiwxNTkyOTQ0MjQsMTc5ODU3NDA5OSwtNzg4MTMwNzA2
-LDg2NjEyOTk1MywtNDA1MTM2MDk5LC02OTY5NzY0MjMsLTYwND
-E4NzE2LC0xNTQwMTQ5NjEyLDIwOTI0NjY5MTddfQ==
+eyJoaXN0b3J5IjpbMjk0OTM1MzMzLC04NDU5ODQ0NiwxMDY5OT
+MxMjM2LDE1OTI5NDQyNCwxNzk4NTc0MDk5LC03ODgxMzA3MDYs
+ODY2MTI5OTUzLC00MDUxMzYwOTksLTY5Njk3NjQyMywtNjA0MT
+g3MTYsLTE1NDAxNDk2MTIsMjA5MjQ2NjkxN119
 -->
