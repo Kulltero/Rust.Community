@@ -46,14 +46,14 @@ an underutilized Power of the InputField is that you can select its contents. Th
 It’s recommended to wrap your InputField in another panel, ensuring it's the only child of it’s parent, as it prevents the selected text from being covered by other children.
 
 ### Receiving Input & the lineType Setting
-to receive the Player's input Text, listen for the Command you specify in the `command` field. the Input will get sent as soon as the Player unfocuses the InputField, for example by clicking out of it.
+to receive the Player’s input text, listen for the command you specify in the  `command`  field. The Input will get sent as soon as the Player unfocuses the InputField, for example by clicking out of it.
 
-depending on the `lineType` Setting, if it's set to SingleLine or MultiLineSubmit pressing `enter` will also cause the Input to get sent to the Server. Pressing `enter` with the MultiLineNewline Setting inserts a Newline instead.
+Depending on the  `lineType`  Setting, if it’s set to SingleLine or MultiLineSubmit pressing  `enter`  will also cause the Input to get sent to the Server. Pressing  `enter`  with the MultiLineNewline Setting inserts a Newline instead.
 
 **< [Previous Component](/docs/components/UnityEngine.UI.Button.md)** | **[Back to Components](/docs/components/README.md)** | **[Next Component](/docs/components/NeedsX.md) >**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTY2NDA4MDAsLTEzOTc1MzQ4MzgsLT
-g5NDU4NzUxOCwtMjgxMDYxOTgyLC00OTE1ODA0NTAsLTQ0NzIz
-OTIzNywtNTg4ODA5NzE0LDIwNTYyMzU2NjgsLTE2MTI4NzUyNz
-JdfQ==
+eyJoaXN0b3J5IjpbMTcyMjc1NzcwNiwtMTM5NzUzNDgzOCwtOD
+k0NTg3NTE4LC0yODEwNjE5ODIsLTQ5MTU4MDQ1MCwtNDQ3MjM5
+MjM3LC01ODg4MDk3MTQsMjA1NjIzNTY2OCwtMTYxMjg3NTI3Ml
+19
 -->
