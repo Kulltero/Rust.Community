@@ -1,5 +1,5 @@
 # The Basics of CUI
-**< [Previous Topic](/README.md)** | **[Back to the Start](/README.md)** | **[Next Topic](/docs/components/README.md) >**
+**[Back to the Start](/README.md)** | **[Next Topic](/docs/components/README.md) >**
 
 There are a few basic Concepts that are needed to make your own CUI, below you will learn about what Panels are & how to create and destroy UI Elements
 
@@ -59,9 +59,10 @@ When destroying a Panel, all child Panels will also get destroyed.
 ----
 the next Topic explains Components in detail
 
-**< [Previous Topic](/README.md)** | **[Back to the Start](/README.md)** | **[Next Topic](/docs/components/README.md) >**
+**[Back to the Start](/README.md)** | **[Next Topic](/docs/components/README.md) >**
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk0NTg2OTQ4LC0xMDY0Njk1MzkyLC00Mj
-A0ODM2LC0xMzIxOTkzNDAyLDQ3MDY2NzExOSw2ODg2NTI4MCwt
-MTE2NTg4Mzk2M119
+eyJoaXN0b3J5IjpbODk3Mjg0MDMwLDg5NDU4Njk0OCwtMTA2ND
+Y5NTM5MiwtNDIwNDgzNiwtMTMyMTk5MzQwMiw0NzA2NjcxMTks
+Njg4NjUyODAsLTExNjU4ODM5NjNdfQ==
 -->
