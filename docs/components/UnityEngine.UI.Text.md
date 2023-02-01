@@ -36,6 +36,7 @@ Text-specific Fields:
 -   `RobotoCondensed-Regular.ttf`
 
 ### Text Alignment Options:
+the TextAnchor enum has the following options available
 | `UpperLeft`  | `UpperCenter`  | `UpperRight`  |
 | ------------ | -------------- | ------------- |
 | `MiddleLeft` | `MiddleCenter` | `MiddleRight` |
@@ -61,8 +62,8 @@ For colors, Unity Supports an assortment of named Colors you can find in  **[thi
 
 **< [Previous Component](/docs/components/UnityEngine.UI.Image.md)** | **[Back to Components](/docs/components/README.md)** | **[Next Component](/docs/components/UnityEngine.UI.Outline.md) >**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDkyNTAzNzQsLTg0NTk4NDQ2LDEwNj
-k5MzEyMzYsMTU5Mjk0NDI0LDE3OTg1NzQwOTksLTc4ODEzMDcw
-Niw4NjYxMjk5NTMsLTQwNTEzNjA5OSwtNjk2OTc2NDIzLC02MD
-QxODcxNiwtMTU0MDE0OTYxMiwyMDkyNDY2OTE3XX0=
+eyJoaXN0b3J5IjpbNDczMTExNTU3LC04NDU5ODQ0NiwxMDY5OT
+MxMjM2LDE1OTI5NDQyNCwxNzk4NTc0MDk5LC03ODgxMzA3MDYs
+ODY2MTI5OTUzLC00MDUxMzYwOTksLTY5Njk3NjQyMywtNjA0MT
+g3MTYsLTE1NDAxNDk2MTIsMjA5MjQ2NjkxN119
 -->
