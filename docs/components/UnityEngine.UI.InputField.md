@@ -30,20 +30,20 @@ The InputField Component is an Interactive Component that allows Players to ente
 InputField specific Fields:
 | Key         | Type   | Notes                |
 | :---------- | :----- | :------------------- |
-| `command`   | string | the Command that should get sent to the Server alongside the Player's Input. The Input will get appended to the Command after a Space. |
+| `command`   | string | the command that should get sent to the Server alongside the Player's Input. The Input will get appended to the Command after a Space. |
 | `text`      | string | the default Text of the InputField can be combined with `readOnly` |
 | `readOnly`  | bool   | prevents the Content from being edited |
 | `lineType`  | string (enum `InputField.LineType`) | dictates if the Field should allow multiple Lines & how to handle when the Player presses `enter` |
 | `password`  | key presence Field | if the input should be obscured |
-| `needsKeyboard`  | key presence Field | prevents default Keyboard behavior (movement, item switching etc) while the field is Focused |
+| `needsKeyboard`  | key presence Field | prevents default Keyboard behavior (movement, item switching etc.) while the field is Focused |
 | `hudMenuInput`  | key presence Field | same as above but for Rust UI (Inventory, Crafting, etc.) |
 | `autofocus`  | key presence Field | selects the field upon creation |
 | `fadeIn`    | float  | the Duration the Panel should take to fade in |
 
 ### Selecting Text
-an underutilized Power of the InputField is that you can select its contents. this is helpful when creating forms & editors, but can also be used for other features. Like using it for displaying links to your website or discord, allowing players to select and copy it instead of having to type it out
+an underutilized Power of the InputField is that you can select its contents. This is helpful when creating forms & editors, but can also be used for other features. Like using it for displaying links to your website or discord, allowing players to select and copy it instead of having to type it out.
 
-it's recommended to wrap your InputField in another panel, ensuring its the only child of it's parent as it prevents the Selected text from being covered by other children.
+It’s recommended to wrap your InputField in another panel, ensuring it's the only child of it’s parent, as it prevents the selected text from being covered by other children.
 
 ### Receiving Input & the lineType Setting
 to receive the Player's input Text, listen for the Command you specify in the `command` field. the Input will get sent as soon as the Player unfocuses the InputField, for example by clicking out of it.
@@ -52,7 +52,7 @@ depending on the `lineType` Setting, if it's set to SingleLine or MultiLineSubmi
 
 **< [Previous Component](/docs/components/UnityEngine.UI.Button.md)** | **[Back to Components](/docs/components/README.md)** | **[Next Component](/docs/components/NeedsX.md) >**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzAyOTQ3MjEsLTEzOTc1MzQ4MzgsLT
+eyJoaXN0b3J5IjpbLTE0MTY2NDA4MDAsLTEzOTc1MzQ4MzgsLT
 g5NDU4NzUxOCwtMjgxMDYxOTgyLC00OTE1ODA0NTAsLTQ0NzIz
 OTIzNywtNTg4ODA5NzE0LDIwNTYyMzU2NjgsLTE2MTI4NzUyNz
 JdfQ==
