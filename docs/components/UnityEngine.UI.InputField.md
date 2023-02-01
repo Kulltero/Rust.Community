@@ -30,15 +30,15 @@ The InputField Component is an Interactive Component that allows Players to ente
 InputField specific Fields:
 | Key         | Type   | Notes                |
 | :---------- | :----- | :------------------- |
-| `command`   | string | the command that should get sent to the Server alongside the Player's Input. The Input will get appended to the Command after a Space. |
-| `text`      | string | the default Text of the InputField can be combined with `readOnly` |
-| `readOnly`  | bool   | prevents the Content from being edited |
-| `lineType`  | string (enum `InputField.LineType`) | dictates if the Field should allow multiple Lines & how to handle when the Player presses `enter` |
-| `password`  | key presence Field | if the input should be obscured |
-| `needsKeyboard`  | key presence Field | prevents default Keyboard behavior (movement, item switching etc.) while the field is Focused |
-| `hudMenuInput`  | key presence Field | same as above but for Rust UI (Inventory, Crafting, etc.) |
-| `autofocus`  | key presence Field | selects the field upon creation |
-| `fadeIn`    | float  | the Duration the Panel should take to fade in |
+| `command`   | string | The command that should get sent to the Server alongside the Player's Input. The Input will get appended to the Command after a Space. |
+| `text`      | string | The default Text of the InputField can be combined with `readOnly` |
+| `readOnly`  | bool   | Prevents the Content from being edited |
+| `lineType`  | string (enum `InputField.LineType`) | Dictates if the Field should allow multiple Lines & how to handle when the Player presses `enter` |
+| `password`  | key presence Field | If the input should be obscured |
+| `needsKeyboard`  | key presence Field | Prevents default Keyboard behavior (movement, item switching etc.) While the field is Focused |
+| `hudMenuInput`  | key presence Field | Same as above but for Rust UI (Inventory, Crafting, etc.) |
+| `autofocus`  | key presence Field | Selects the field upon creation |
+| `fadeIn`    | float  | The Duration the Panel should take to fade in |
 
 ### Selecting Text
 an underutilized Power of the InputField is that you can select its contents. This is helpful when creating forms & editors, but can also be used for other features. Like using it for displaying links to your website or discord, allowing players to select and copy it instead of having to type it out.
@@ -52,8 +52,8 @@ Depending on the  `lineType`  Setting, if it’s set to SingleLine or MultiLineS
 
 **< [Previous Component](/docs/components/UnityEngine.UI.Button.md)** | **[Back to Components](/docs/components/README.md)** | **[Next Component](/docs/components/NeedsX.md) >**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMjc1NzcwNiwtMTM5NzUzNDgzOCwtOD
-k0NTg3NTE4LC0yODEwNjE5ODIsLTQ5MTU4MDQ1MCwtNDQ3MjM5
-MjM3LC01ODg4MDk3MTQsMjA1NjIzNTY2OCwtMTYxMjg3NTI3Ml
-19
+eyJoaXN0b3J5IjpbOTIyNTcyNDkwLC0xMzk3NTM0ODM4LC04OT
+Q1ODc1MTgsLTI4MTA2MTk4MiwtNDkxNTgwNDUwLC00NDcyMzky
+MzcsLTU4ODgwOTcxNCwyMDU2MjM1NjY4LC0xNjEyODc1MjcyXX
+0=
 -->
