@@ -1,8 +1,8 @@
 # Rust Community Repository
-> This Repository is part of the game Rust. It has no relation to the Programming Language
+> This Repository is part of the game Rust. It has no relation to the Programming Language.
 
 Client Code for the `CommunityEntity` Class to fulfill Server-side Modder Requests.
-Holds the Custom User Interface System (CUI System), which lets developers create interactable UI through a simple JSON Schema
+Holds the Custom User Interface System (CUI System), which lets developers create interactive UI through a simple JSON Schema.
 
 ## Table of Contents
 > Click one of the Topics or dive directly into the Component Documentation
@@ -17,7 +17,7 @@ Holds the Custom User Interface System (CUI System), which lets developers creat
   - [InputField](/docs/components/UnityEngine.UI.InputField.md)
   - [NeedsCursor & NeedsKeyboard](/docs/components/NeedsX.md)
   - [Countdown](/docs/components/Countdown.md)
-- [Tips, Bugs & Edgecases](/docs/Bugs-Tips.md)
+- [Tips, Bugs & Edge cases](/docs/Bugs-Tips.md)
 - [Credits & Acknowledgements](#Credits)
 
 ## Credits
@@ -36,7 +36,7 @@ External Contributors & People who improved the CUI System
 ### Disclaimer
 the readme & Documentation is Community maintained it aims to give Developers a starting Point and educate them on effectively using CUIs for their Projects
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MzcyODk1OCwxOTA2Nzg4NTM5LDg0OD
-kzMjc2OSwtNDQ5Mjc0OTQzLC0yMDE1ODExNzQ1LC0xMTQ0MDgw
-NTczLC0yMTI2NDcyMzA1XX0=
+eyJoaXN0b3J5IjpbNjc0NTEwNTI4LDIwNzM3Mjg5NTgsMTkwNj
+c4ODUzOSw4NDg5MzI3NjksLTQ0OTI3NDk0MywtMjAxNTgxMTc0
+NSwtMTE0NDA4MDU3MywtMjEyNjQ3MjMwNV19
 -->
