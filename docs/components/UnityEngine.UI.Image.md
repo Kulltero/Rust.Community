@@ -22,12 +22,12 @@ The Image is a Visual Component that allows you to display images from your Serv
 RawImage specific Fields:
 | Key         | Type   | Notes                |
 | :---------- | :----- | :------------------- |
-| `sprite`    | string | the asset Path to the sprite |
-| `color`     | string | the normalized RGBA values of your color |
-| `material`  | string | the asset Path to the Material |
+| `sprite`    | string | The asset Path to the sprite |
+| `color`     | string | The normalized RGBA values of your color |
+| `material`  | string | The asset Path to the Material |
 | `imagetype` | string (enum `Image.Type`) | sets the display mode of the Image* |
-| `png`       | string | the CRC Checksum of the Image hosted on the Server |
-| `itemid`    | int    | the Item ID of your item |
+| `png`       | string | The CRC Checksum of the Image hosted on the Server |
+| `itemid`    | int    | The Item ID of your item |
 | `skinid`    | ulong  | the Skin ID of your skin |
 | `fadeIn`    | float  | the Duration the Panel should take to fade in |
 \*  Currently non-functioning for anything other than Rust's built-in Sprites
@@ -52,11 +52,11 @@ int itemid = itemDef.itemid;
 check the [RawImage](/docs/components/UnityEngine.UI.RawImage.md) Documentation to learn about Fields the Components share.
 **< [Previous Component](/docs/components/UnityEngine.UI.RawImage.md)** | **[Back to Components](/docs/components/README.md)** | **[Next Component](/docs/components/UnityEngine.UI.Text.md) >**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODUzMTkyMDAsNzE2MzUxNDYwLC0xNT
-kwMzgxMjkzLC0xNzA2MDE3ODA0LC0yMDE2MDcwNjM2LDU2OTg0
-MjMxOCwtMTg4MTYxMjIxLC0xNjA3MzI0NTg5LC02NjI2NjExMj
-AsMTQ5ODMyNDQ2MywxNzg3MTMyMTU0LDkyMDc0MjQ2MCwtMTMz
-NTMwNDk4MiwtNDk0MDEwMTkxLDU4NTA4NjU4LC0xMzI5MDE3NT
-kyLDIwOTM5NjIzNjQsLTE3NTAzMjk3NCwxMDA4NDc5NDEwLC0x
-MDU4Mjc3MTkwXX0=
+eyJoaXN0b3J5IjpbMTYyNzg4MTIxNiw3MTYzNTE0NjAsLTE1OT
+AzODEyOTMsLTE3MDYwMTc4MDQsLTIwMTYwNzA2MzYsNTY5ODQy
+MzE4LC0xODgxNjEyMjEsLTE2MDczMjQ1ODksLTY2MjY2MTEyMC
+wxNDk4MzI0NDYzLDE3ODcxMzIxNTQsOTIwNzQyNDYwLC0xMzM1
+MzA0OTgyLC00OTQwMTAxOTEsNTg1MDg2NTgsLTEzMjkwMTc1OT
+IsMjA5Mzk2MjM2NCwtMTc1MDMyOTc0LDEwMDg0Nzk0MTAsLTEw
+NTgyNzcxOTBdfQ==
 -->
