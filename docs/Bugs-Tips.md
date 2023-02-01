@@ -103,9 +103,9 @@ for features that augment Rust's existing UI, like when you're working with Furn
 
 Rust UI uses the same Placement system CUI does. it primarily uses offsets for sizing & positioning and anchors to a specific Point depending on the UI. by doing the same you can ensure that your CUI is positioned properly, regardless of Screensize & Aspect Ratio.
 
-UIs like the inventory, beltbar & storage containers are anchored to the bottom of the screen, but many other UIs dont follow that convention.
+UIs like the inventory, belt bar & storage containers are anchored to the bottom of the screen, but many other UIs don't follow that convention.
 
-a great way to discover what a UI element is anchored to is to use the windowed mode and stretch it to extreme aspect ratios. this reveals anchoring in a clear way thanks to rust's offset scaling
+a great way to discover what a UI element is anchored to is to use the windowed mode and stretch it to extreme aspect ratios. this clearly reveals anchoring thanks to rust's offset scaling
 ![image](https://user-images.githubusercontent.com/33698270/216077347-5461623c-8ff4-4890-8633-062519c4e371.png)
 > stretching our window show that the Crafting & Contacts buttons are anchored to the top middle, while the status bars are anchored to the bottom right corner
 
@@ -123,7 +123,7 @@ a RectTransform Example that covers the Belt-bar
 
 **< [Previous Topic](/docs/components/README.md)** | **[Back to the Start](/README.md)**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyOTk4MTE1OSwtMTMyNzkwNDU5OSwtMj
+eyJoaXN0b3J5IjpbLTMyODIxNTgyMiwtMTMyNzkwNDU5OSwtMj
 I0MjA5OTAzLC04Mzk5NTAyMjYsLTIwMTA2OTQ1MjgsMTIyODc0
 MTc0LDIwMTkwNDY4NDddfQ==
 -->
