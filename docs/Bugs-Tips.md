@@ -40,20 +40,22 @@ this error indicates that you're trying to add multiple Unity Components that De
 
 ---
 
-### Flickering when destroying & re-sending UI on the same frame.
-**Symptom:** when updating Part of your UI. the Player gets a noticeable Delay between the old UI being destroyed & the new UI being created.
 
-**Cause:** the presumed cause of this issue is the Server Delaying your AddUI Packet to the next Network Cycle. this happens very unpredictably but is more likely with larger UI Updates. the solution is to use the `destroyUi` field on your panel Payload, it works the same way a DestroyUI call works, but is combined with your panel Payload to prevent network scheduling from creating the Flickering issue.
+### Flickering when destroying & re-sending UI on the same frame. 
+**Symptom:** when updating Part of your UI. the Player gets a noticeable Delay between the old UI being destroyed & the new UI being created. 
+
+**Cause:** the presumed cause of this issue is the Server Delaying your AddUI Packet to the next Network Cycle. This happens very unpredictably, but is more likely with larger UI Updates. The solution is to use the `destroyUi` field on your panel Payload, it works the same way a DestroyUI call works, but is combined with your panel Payload to prevent network scheduling from creating the flickering issue.
 
 
 
 ---
 
 ### Very Inconsistent Alpha handling for images
-**Symptom:** when using Images with somewhat transparent pixels the images get rendered more Opaque than they are, resulting in heavy artifacts.
-**Linked Issue:** **[#42 - Rust has an Opacity Issue](https://github.com/Facepunch/Rust.Community/issues/42)**
 
-**Cause:** no known Cause or Workaround found. vote on the Linked issue if you encounter this bug or have more info as to why this might happen
+**Symptom:**  when using images with somewhat transparent pixels, the images get rendered more Opaque than they are, resulting in heavy artifacts.  
+**Linked Issue:**  **[#42 - Rust has an Opacity Issue](https://github.com/Facepunch/Rust.Community/issues/42)**
+
+**Cause:**  no known Cause or Workaround found. Vote on the Linked issue if you encounter this bug or have more info as to why this might happen.
 
 
 
@@ -125,7 +127,8 @@ a RectTransform Example that covers the Belt-bar
 
 **< [Previous Topic](/docs/components/README.md)** | **[Back to the Start](/README.md)**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Njc0ODY3MjgsLTMyODIxNTgyMiwtMT
-MyNzkwNDU5OSwtMjI0MjA5OTAzLC04Mzk5NTAyMjYsLTIwMTA2
-OTQ1MjgsMTIyODc0MTc0LDIwMTkwNDY4NDddfQ==
+eyJoaXN0b3J5IjpbMTMwNjI0MTU4NiwtMTc2NzQ4NjcyOCwtMz
+I4MjE1ODIyLC0xMzI3OTA0NTk5LC0yMjQyMDk5MDMsLTgzOTk1
+MDIyNiwtMjAxMDY5NDUyOCwxMjI4NzQxNzQsMjAxOTA0Njg0N1
+19
 -->
