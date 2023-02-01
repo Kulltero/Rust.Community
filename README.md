@@ -34,9 +34,9 @@ External Contributors & People who improved the CUI System
 
 ---
 ### Disclaimer
-The README & Documentation is Community maintained. It aims to give Developers a starting Point and educate them on effectively using CUIs for their Projects
+The README & Documentation is Community maintained. It aims to give Developers a starting Point and educate them on effectively using CUIs for their Projects.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTUyMTA1OSwyMDczNzI4OTU4LDE5MD
-Y3ODg1MzksODQ4OTMyNzY5LC00NDkyNzQ5NDMsLTIwMTU4MTE3
-NDUsLTExNDQwODA1NzMsLTIxMjY0NzIzMDVdfQ==
+eyJoaXN0b3J5IjpbLTU0MjI2OTAzLDIwNzM3Mjg5NTgsMTkwNj
+c4ODUzOSw4NDg5MzI3NjksLTQ0OTI3NDk0MywtMjAxNTgxMTc0
+NSwtMTE0NDA4MDU3MywtMjEyNjQ3MjMwNV19
 -->
