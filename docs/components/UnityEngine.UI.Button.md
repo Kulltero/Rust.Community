@@ -5,7 +5,7 @@
 - Category: **Interactive, Visual**
 - Unity Documentation: **[Button @ docs.unity3d.com](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/script-Button.html)**
 
-The Button Component is an Interactive Component that lets you execute Commands & Destroy UI when it gets pressed. it automatically adds a `UnityEngine.UI.Image` to the panel, allowing you to  change the `sprite`, `material` & `color` on it
+The Button Component is an Interactive Component that lets you execute Commands & Destroy UI when it gets pressed. It automatically adds a  `UnityEngine.UI.Image`  to the panel, allowing you to change the  `sprite`,  `material`  &  `color`  on it.
 ```json
 {
 	"type": "UnityEngine.UI.Button",
@@ -35,6 +35,6 @@ click events bubble up, meaning that they will get triggered on every Panel unti
 
 **< [Previous Component](/docs/components/UnityEngine.UI.Outline.md)** | **[Back to Components](/docs/components/README.md)** | **[Next Component](/docs/components/UnityEngine.UI.InputField.md) >**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYyMDg1NTMyLDE2MjQ1ODIzNCwtODc0ND
-k2NDIyLC0xMjU4ODc1NDYwLC0xMDcyMDU1MDQzXX0=
+eyJoaXN0b3J5IjpbMjA3NzA5NjY3OCwxNjI0NTgyMzQsLTg3ND
+Q5NjQyMiwtMTI1ODg3NTQ2MCwtMTA3MjA1NTA0M119
 -->
