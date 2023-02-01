@@ -1,6 +1,6 @@
 # Bugs & Tips
 
-**< [Previous Topic](/docs/components/README.md)** | **[Back to the Start](/README.md)** | **[Next Topic](/README.md) >**
+**< [Previous Topic](/docs/components/README.md)** | **[Back to the Start](/README.md)**
 
 When working with the CUI System you will often encounter weird Bugs & Situations. this document lists some ways to prevent them & shows you additional tricks to enhance your UIs
 
@@ -121,9 +121,9 @@ a RectTransform Example that covers the Belt-bar
 ```
 ![image](https://user-images.githubusercontent.com/33698270/215901408-c152fecb-8453-4597-8cd6-61038b2b976d.png)
 
-**< [Previous Topic](/docs/components/README.md)** | **[Back to the Start](/README.md)** | **[Next Topic](/README.md) >**
+**< [Previous Topic](/docs/components/README.md)** | **[Back to the Start](/README.md)**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjc5MDQ1OTksLTIyNDIwOTkwMywtOD
-M5OTUwMjI2LC0yMDEwNjk0NTI4LDEyMjg3NDE3NCwyMDE5MDQ2
-ODQ3XX0=
+eyJoaXN0b3J5IjpbMjg3NjQ5NTc0LC0xMzI3OTA0NTk5LC0yMj
+QyMDk5MDMsLTgzOTk1MDIyNiwtMjAxMDY5NDUyOCwxMjI4NzQx
+NzQsMjAxOTA0Njg0N119
 -->
