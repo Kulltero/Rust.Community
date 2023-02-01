@@ -22,12 +22,12 @@ Tip: if you’re used to using hexadecimal, you can use this function to convert
 RawImage specific Fields:
 | Key         | Type   | Notes                |
 | :---------- | :----- | :------------------- |
-| `sprite`    | string | the asset Path to the sprite |
-| `color`     | string | the normalized RGBA values of your color |
-| `material`  | string | the asset Path to the Material |
-| `url`       | string | the URL of the Image you want to show |
-| `png`       | string | the CRC Checksum of the Image hosted on the Server |
-| `fadeIn`    | float  | the Duration the Panel should take to fade in |
+| `sprite`    | string | The asset Path to the sprite |
+| `color`     | string | The normalized RGBA values of your color |
+| `material`  | string | The asset Path to the Material |
+| `url`       | string | The URL of the Image you want to show |
+| `png`       | string | The CRC Checksum of the Image hosted on the Server |
+| `fadeIn`    | float  | The Duration the Panel should take to fade in |
 
 ## Images can be your Backgrounds
 the most common use for RawImage is its Ability to display any* Color you give it.  therefore it's often used to give Panels a Background Color. Colors are sent as a `string` of 4 normalized `floats`
@@ -96,10 +96,10 @@ when using an image you can use the `color` property to modify the image's Color
 Before using RawImage, take a look at the Image Component to see if it’s better suited for your use case.
 **< [Previous Component](/docs/components/README.md)** | **[Back to Components](/docs/components/README.md)** | **[Next Component](/docs/components/UnityEngine.UI.Image.md) >**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNjU4NDk5MSwtNjg1MTk4MTQsLTE4OD
-U1NjI1MDgsLTE3OTU1MjMxMjIsLTIwNTU5MjM4OTEsLTExOTE2
-OTE1MjQsLTQ1OTc4ODkyMywtMjY1ODQ2MDIyLDE0ODM4OTMwOT
-ksLTE0NDg4NjIwNjksLTExNTY1NzM0OTgsLTE2Njg5MjIxNiw3
-MjIwODM0NTAsNTg5Mzg3MDM0LDE5NDc0MjQ1ODUsLTIwODU4NT
-MyNjFdfQ==
+eyJoaXN0b3J5IjpbMTc5MTU5NzU5OSwxMDM2NTg0OTkxLC02OD
+UxOTgxNCwtMTg4NTU2MjUwOCwtMTc5NTUyMzEyMiwtMjA1NTky
+Mzg5MSwtMTE5MTY5MTUyNCwtNDU5Nzg4OTIzLC0yNjU4NDYwMj
+IsMTQ4Mzg5MzA5OSwtMTQ0ODg2MjA2OSwtMTE1NjU3MzQ5OCwt
+MTY2ODkyMjE2LDcyMjA4MzQ1MCw1ODkzODcwMzQsMTk0NzQyND
+U4NSwtMjA4NTg1MzI2MV19
 -->
