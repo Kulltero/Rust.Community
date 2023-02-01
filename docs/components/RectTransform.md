@@ -47,12 +47,14 @@ A common Technique is to use anchors to specify what part of the Parent the UI s
 Anchors Specify where your Panel starts & ends. Offsets let you move the start & end Points with pixel Values.
 
 ## Offsets and Scaling
-Rust will automatically scale Offsets depending on the Player's Resolution, which ensures your Offsets are predictable.
 
-By default, Rust handles Offsets based on a Resolution of **1280** by **720**. This means that for smaller & larger **16:9** Resolutions Rust will simply multiply Offsets by the difference between the Player's Resolution and 720p,
+Rust will automatically scale offsets depending on the Player’s Resolution, which ensures your Offsets are predictable.
 
-For non-16:9 Resolutions such as Ultrawide or windowed Mode, Rust will apply Letterboxing before calculating the scaling Factor
+By default, Rust handles Offsets based on a Resolution of  **1280**  by  **720**. This means that for smaller & larger  **16:9**  Resolutions, Rust will simply multiply Offset by the difference between the Player’s Resolution and 720p,
 
+For non-16:9 Resolutions such as Ultrawide or windowed Mode, Rust will apply Letter boxing before calculating the scaling Factor
+
+> NOTE: when scaling offsets rust also takes the player's `graphics.uiscale`into account.
 
 https://user-images.githubusercontent.com/33698270/214582004-c695e73c-9125-4ccb-9cfb-abc883b5c0a0.mp4
 > a video of a gray Rectangle positioned at the Center of the Screen (anchor min & max at  `0.5 0.5`) with an offset of 1280 x 720 px. see how Unity applies Letter boxing before scaling the Rectangle to ensure it never gets stretched. NOTE: the black Bars are only to illustrate in this Example, your in game UI won’t have any black Bars
@@ -60,11 +62,11 @@ https://user-images.githubusercontent.com/33698270/214582004-c695e73c-9125-4ccb-
 
 **[Back to Components](/docs/components/README.md)** | **[Next Component](/docs/components/UnityEngine.UI.RawImage.md) >**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3ODQ5MTUxOCwxODAzNDU0MjUzLDE1Mz
-Q3OTY2NDksLTE2MzIzODA0NjksLTExOTA0OTAyMzQsMTg3NTEz
-MTU4MSwtNTg0OTYxNjIsLTk4NjEwNTc2NiwtMTgzODEyMDY4MS
-wtMTkyMDA4MzQ5MywtMTU1MTc2MjE3MCwtMTc1NzYzMTU4Mywx
-MjcyNDk0NDQyLDI0MzQzNDA3NCwtMTYzNzIxNDQ0LC0xOTkzND
-MwMjIzLC05MzY3NjE4MDcsLTEzMzg4NzQ3OTgsLTEwMTE2OTEy
-MDQsLTEyNzUyMjQ5NTldfQ==
+eyJoaXN0b3J5IjpbMTA2Njg5MDYxMywtNTc4NDkxNTE4LDE4MD
+M0NTQyNTMsMTUzNDc5NjY0OSwtMTYzMjM4MDQ2OSwtMTE5MDQ5
+MDIzNCwxODc1MTMxNTgxLC01ODQ5NjE2MiwtOTg2MTA1NzY2LC
+0xODM4MTIwNjgxLC0xOTIwMDgzNDkzLC0xNTUxNzYyMTcwLC0x
+NzU3NjMxNTgzLDEyNzI0OTQ0NDIsMjQzNDM0MDc0LC0xNjM3Mj
+E0NDQsLTE5OTM0MzAyMjMsLTkzNjc2MTgwNywtMTMzODg3NDc5
+OCwtMTAxMTY5MTIwNF19
 -->
