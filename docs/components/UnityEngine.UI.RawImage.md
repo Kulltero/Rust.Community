@@ -58,12 +58,16 @@ Images can also be combined with a Subset of Materials to enhance your UIs, some
 You can re-use any of Rust's Sprites by specifying an asset path in the `sprite` field. 
 
 ## Loading your own Images
-the RawImage Component has two Ways of displaying your own Images, the first is by downloading the image onto the game Server & supplying the CRC Checksum in the `png` field, and the second is by hosting the image online and supplying a direct link to it in the `url` field
+the RawImage Component has two Ways of displaying your own Images, loading from the server & loading from the web.
 
-Loading Images from your Server requires a bit of setup but has the benefit of the Client caching the image once it's loaded from your server, resulting in faster loading times on subsequent UI sends.
+Loading images from the server is done by downloading the image onto the game Server & supplying the CRC Checksum in the  `png`  field.
+
+Loading images from the web is done by hosting the image online and supplying a direct link to it in the  `url`  field
+
+Loading Images from your Server requires a bit of setup but has the benefit of the Client caching the image once it’s loaded from your server, resulting in faster loading times on subsequent UI sends.
 
 ### Loading Images from your Server
-to load Images from your own Server you have to download & store the image in Rust's `FileStorage`.  
+to load images from your own Server, you have to download & store the image in Rust's `FileStorage`.  
 
 ```c#
 
@@ -83,18 +87,19 @@ private IEnumerator SaveImageFromURL(string URL){
 	}
 }
 ```
-the rust Client will then automatically fetch the Image from the Server. You will have to re-download the Image every Wipe as the CommunityEntity's netID will differ, which will cause the Client to not find your Image.
+The rust Client will then automatically fetch the Image from the Server. You will have to re-download the image every Wipe as the CommunityEntity’s netID will differ, which will cause the Client to not find your Image.
 
 ## Combining Images & Color
 when using an image you can use the `color` property to modify the image's Color on the fly, this is great when using Icons that are White or Grayscale, as it allows you to communicate Information by changing the Color of the Icon instead of having to load multiple versions.
 
 ---
-before using RawImage, take a look at the Image Component to see if it's better suited for your usecase.
+Before using RawImage, take a look at the Image Component to see if it’s better suited for your use case.
 **< [Previous Component](/docs/components/README.md)** | **[Back to Components](/docs/components/README.md)** | **[Next Component](/docs/components/UnityEngine.UI.Image.md) >**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NTE5ODE0LC0xODg1NTYyNTA4LC0xNz
-k1NTIzMTIyLC0yMDU1OTIzODkxLC0xMTkxNjkxNTI0LC00NTk3
-ODg5MjMsLTI2NTg0NjAyMiwxNDgzODkzMDk5LC0xNDQ4ODYyMD
-Y5LC0xMTU2NTczNDk4LC0xNjY4OTIyMTYsNzIyMDgzNDUwLDU4
-OTM4NzAzNCwxOTQ3NDI0NTg1LC0yMDg1ODUzMjYxXX0=
+eyJoaXN0b3J5IjpbMTAzNjU4NDk5MSwtNjg1MTk4MTQsLTE4OD
+U1NjI1MDgsLTE3OTU1MjMxMjIsLTIwNTU5MjM4OTEsLTExOTE2
+OTE1MjQsLTQ1OTc4ODkyMywtMjY1ODQ2MDIyLDE0ODM4OTMwOT
+ksLTE0NDg4NjIwNjksLTExNTY1NzM0OTgsLTE2Njg5MjIxNiw3
+MjIwODM0NTAsNTg5Mzg3MDM0LDE5NDc0MjQ1ODUsLTIwODU4NT
+MyNjFdfQ==
 -->
