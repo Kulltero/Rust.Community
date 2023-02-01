@@ -5,7 +5,7 @@
 - Category: **Misc**
 - Unity Documentation: **N/A**
 
-The Countdown Component lets you turn an existing Text Component into a Timer, Countdown, or Count-up. the Countdown Component automatically **destroys** the Panel when it's done counting.
+The Countdown Component lets you turn an existing Text Component into a Timer, Countdown, or Count-up. The Countdown Component automatically  **destroys**  the Panel when it’s done counting.
 ```json
 {
 	"type": "Countdown",
@@ -19,10 +19,10 @@ The Countdown Component lets you turn an existing Text Component into a Timer, C
 Countdown-specific Fields:
 | Key         | Type   | Notes                |
 | :---------- | :----- | :------------------- |
-| `endTime`   | int    | the Number it should count to |
-| `startTime` | int    | the Number it should start counting from |
-| `step`      | int    | the Number it should increment by, also acts as the update interval |
-| `command`   | string | the Command that should be executed when the Countdown finishes. |
+| `endTime`   | int    | The Number it should count to |
+| `startTime` | int    | The Number it should start counting from |
+| `step`      | int    | The Number it should increment by, also acts as the update interval |
+| `command`   | string | The command that should be executed when the Countdown finishes. |
 
 ## Working with Countdowns
 for Countdowns to work you need to add a **[Text](/docs/components/UnityEngine.UI.Text.md)** Component to your Panel. your Text Component's content should include the string `%TIME_LEFT%`, which the Countdown will replace with the current Number.
@@ -38,7 +38,7 @@ Examples:
 
 **< [Previous Component](/docs/components/NeedsX.md)** | **[Back to Components](/docs/components/README.md)** 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzM2NTY1MTAsMjA4OTUwMzQ0NCwtMz
-Q2MDc4ODcsLTE2OTg0OTg2MjcsMzcxNzUyMjE4LDUyOTg1OTk4
-M119
+eyJoaXN0b3J5IjpbMTQwNTMxNDU1OCwyMDg5NTAzNDQ0LC0zND
+YwNzg4NywtMTY5ODQ5ODYyNywzNzE3NTIyMTgsNTI5ODU5OTgz
+XX0=
 -->
