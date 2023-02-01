@@ -1,5 +1,5 @@
 # Components: RectTransform
-**< [Previous Component](/docs/components/README.md)** | **[Back to Components](/docs/components/README.md)** | **[Next Component](/docs/components/UnityEngine.UI.RawImage.md) >**
+**[Back to Components](/docs/components/README.md)** | **[Next Component](/docs/components/UnityEngine.UI.RawImage.md) >**
 
 - Identifier: `RectTransform`
 - Category: **Position**
@@ -57,13 +57,13 @@ https://user-images.githubusercontent.com/33698270/214582004-c695e73c-9125-4ccb-
 > a video of a gray Rectangle positioned at the Center of the Screen (anchor min & max at `0.5 0.5`) with an offset of 1280 x 720 px. see how Unity applies Letterboxing before scaling the Rectangle to ensure it never gets stretched. NOTE: the black Bars are only to illustrate in this Example, your ingame UI won't have any black Bars
 
 
-**< [Previous Component](/docs/components/README.md)** | **[Back to Components](/docs/components/README.md)** | **[Next Component](/docs/components/UnityEngine.UI.RawImage.md) >**
+**[Back to Components](/docs/components/README.md)** | **[Next Component](/docs/components/UnityEngine.UI.RawImage.md) >**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1OTA2MzM5LDE1MzQ3OTY2NDksLTE2Mz
-IzODA0NjksLTExOTA0OTAyMzQsMTg3NTEzMTU4MSwtNTg0OTYx
-NjIsLTk4NjEwNTc2NiwtMTgzODEyMDY4MSwtMTkyMDA4MzQ5My
-wtMTU1MTc2MjE3MCwtMTc1NzYzMTU4MywxMjcyNDk0NDQyLDI0
-MzQzNDA3NCwtMTYzNzIxNDQ0LC0xOTkzNDMwMjIzLC05MzY3Nj
-E4MDcsLTEzMzg4NzQ3OTgsLTEwMTE2OTEyMDQsLTEyNzUyMjQ5
-NTksLTkxMDAzNjUwN119
+eyJoaXN0b3J5IjpbMTgwMzQ1NDI1MywxNTM0Nzk2NjQ5LC0xNj
+MyMzgwNDY5LC0xMTkwNDkwMjM0LDE4NzUxMzE1ODEsLTU4NDk2
+MTYyLC05ODYxMDU3NjYsLTE4MzgxMjA2ODEsLTE5MjAwODM0OT
+MsLTE1NTE3NjIxNzAsLTE3NTc2MzE1ODMsMTI3MjQ5NDQ0Miwy
+NDM0MzQwNzQsLTE2MzcyMTQ0NCwtMTk5MzQzMDIyMywtOTM2Nz
+YxODA3LC0xMzM4ODc0Nzk4LC0xMDExNjkxMjA0LC0xMjc1MjI0
+OTU5LC05MTAwMzY1MDddfQ==
 -->
