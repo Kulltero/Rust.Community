@@ -14,7 +14,8 @@ The Text Component is a Visual Component that allows you to display any Text you
 	"font": "RobotoCondensed-Bold.ttf",
 	"align": "UpperLeft",
 	"color": "1.0 1.0 1.0 1.0",
-	"verticalOverflow": "Truncate"
+	"verticalOverflow": "Truncate",
+    "fadeIn": 0.0
 }
 ```
 Text-specific Fields:
@@ -26,6 +27,7 @@ Text-specific Fields:
 | `align`     | string (enum `TextAnchor`) | the way your Text should be aligned |
 | `color`     | string | the default Color of your Text |
 | `verticalOverflow` | string (enum `VerticalWrapMode`) | how Text Overflowing vertically should be handled |
+| `fadeIn`    | float  | the Duration the Panel should take to fade in |
 
 ### Available Fonts:
 -   `DroidSansMono.ttf`
@@ -60,8 +62,8 @@ for colors, Unity Supports an assortment of named Colors you can find in  **[thi
 
 **< [Previous Component](/docs/components/UnityEngine.UI.Image.md)** | **[Back to Components](/docs/components/README.md)** | **[Next Component](/docs/components/UnityEngine.UI.Outline.md) >**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2OTkzMTIzNiwxNTkyOTQ0MjQsMTc5OD
-U3NDA5OSwtNzg4MTMwNzA2LDg2NjEyOTk1MywtNDA1MTM2MDk5
-LC02OTY5NzY0MjMsLTYwNDE4NzE2LC0xNTQwMTQ5NjEyLDIwOT
-I0NjY5MTddfQ==
+eyJoaXN0b3J5IjpbLTg0NTk4NDQ2LDEwNjk5MzEyMzYsMTU5Mj
+k0NDI0LDE3OTg1NzQwOTksLTc4ODEzMDcwNiw4NjYxMjk5NTMs
+LTQwNTEzNjA5OSwtNjk2OTc2NDIzLC02MDQxODcxNiwtMTU0MD
+E0OTYxMiwyMDkyNDY2OTE3XX0=
 -->
