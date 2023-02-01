@@ -35,7 +35,7 @@ RawImage specific Fields:
 ## imagetype and sprites
 the imagetype lets you provide a specific `Image.Type` option to change how the Component renders the image. 
 
-an important thing to remember is that currently, Simple is the only option that works with Images loaded from your server. this is because the Sliced, Tiled & Filled options require extra parameters to be set o
+an important thing to remember is that currently, Simple is the only option that works with Images loaded from your server. this is because the Sliced, Tiled & Filled options require extra parameters to be set
 
 Available options for `Image.Type`
 | Value | Description |
@@ -66,7 +66,7 @@ int itemid = itemDef.itemid;
 check the [RawImage](/docs/components/UnityEngine.UI.RawImage.md) Documentation to learn about Fields the Components share.
 **< [Previous Component](/docs/components/UnityEngine.UI.RawImage.md)** | **[Back to Components](/docs/components/README.md)** | **[Next Component](/docs/components/UnityEngine.UI.Text.md) >**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NTY5NjQ5NSwtNDg1MzQ0OTA3LDcxNj
+eyJoaXN0b3J5IjpbLTM4NzgyNDE5MiwtNDg1MzQ0OTA3LDcxNj
 M1MTQ2MCwtMTU5MDM4MTI5MywtMTcwNjAxNzgwNCwtMjAxNjA3
 MDYzNiw1Njk4NDIzMTgsLTE4ODE2MTIyMSwtMTYwNzMyNDU4OS
 wtNjYyNjYxMTIwLDE0OTgzMjQ0NjMsMTc4NzEzMjE1NCw5MjA3
