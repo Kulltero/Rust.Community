@@ -99,7 +99,7 @@ Another advanced trick is stacking Outlines with lowered Opacity to create a sta
 ---
 
 ### Positioning your CUI alongside rust UI
-for features that augment Rust's existing UI, like when you're working with Furnaces & other storage Inventories, its important to make sure your CUI doesn't interfere with the UI you augment. 
+for features that augment Rust's existing UI, like when you're working with Furnaces & other storage Inventories, it's important to make sure your CUI doesn't interfere with the UI you augment. 
 
 Rust UI uses the same Placement system CUI does. it primarily uses offsets for sizing & positioning and anchors to a specific Point depending on the UI. by doing the same you can ensure that your CUI is positioned properly, regardless of Screensize & Aspect Ratio.
 
@@ -123,7 +123,7 @@ a RectTransform Example that covers the Belt-bar
 
 **< [Previous Topic](/docs/components/README.md)** | **[Back to the Start](/README.md)**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg3NjQ5NTc0LC0xMzI3OTA0NTk5LC0yMj
-QyMDk5MDMsLTgzOTk1MDIyNiwtMjAxMDY5NDUyOCwxMjI4NzQx
-NzQsMjAxOTA0Njg0N119
+eyJoaXN0b3J5IjpbMjEyOTk4MTE1OSwtMTMyNzkwNDU5OSwtMj
+I0MjA5OTAzLC04Mzk5NTAyMjYsLTIwMTA2OTQ1MjgsMTIyODc0
+MTc0LDIwMTkwNDY4NDddfQ==
 -->
