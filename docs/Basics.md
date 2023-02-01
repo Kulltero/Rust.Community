@@ -43,7 +43,7 @@ layers are used when creating your top most Panel. They differ from Panels becau
 
 It’s recommended to always name your Panels  _something_, this is because the CUI System doesn’t support multiple Panels with the same name and may cause  **[Ghost panels](/docs/Bugs-Tips.md#orphaned-ui-panels-ui-that-cant-be-destroyed-or-ghost-panels)**  which can't be destroyed.
 
-It’s also recommended to prefix the Name of your Panel with something unique to your Mod, which ensures there are no accidental  **[Ghost panels](/docs/Bugs-Tips.md#orphaned-ui-panels-ui-that-cant-be-destroyed-or-ghost-panels)**name Conflicts with other Mods
+It’s also recommended to prefix the Name of your Panel with something unique to your Mod, which ensures there are no accidental name Conflicts with other Mods
 
 
 ## Sending & destroying UI
@@ -76,7 +76,7 @@ The next Topic explains Components in detail
 **[Back to the Start](/README.md)** | **[Next Topic](/docs/components/README.md) >**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTQ0NzkyOSw4OTcyODQwMzAsODk0NT
+eyJoaXN0b3J5IjpbLTk4NzEyMjUyNyw4OTcyODQwMzAsODk0NT
 g2OTQ4LC0xMDY0Njk1MzkyLC00MjA0ODM2LC0xMzIxOTkzNDAy
 LDQ3MDY2NzExOSw2ODg2NTI4MCwtMTE2NTg4Mzk2M119
 -->
