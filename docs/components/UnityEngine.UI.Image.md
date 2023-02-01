@@ -35,7 +35,7 @@ RawImage specific Fields:
 ## imagetype and sprites
 the imagetype lets you provide a specific `Image.Type` option to change how the Component renders the image. 
 
-an important thing to remember is that currently, Simple is the only option that works with Images loaded from your server. this is because the Sliced, Tiled & Filled options require extra parameters to be set
+an important thing to remember is that currently, Simple is the only option that works with Images loaded from your server. this is because the Sliced, Tiled & Filled options require extra parameters to be set on the sprite. the image Component's JO
 
 Available options for `Image.Type`
 | Value | Description |
@@ -66,11 +66,11 @@ int itemid = itemDef.itemid;
 check the [RawImage](/docs/components/UnityEngine.UI.RawImage.md) Documentation to learn about Fields the Components share.
 **< [Previous Component](/docs/components/UnityEngine.UI.RawImage.md)** | **[Back to Components](/docs/components/README.md)** | **[Next Component](/docs/components/UnityEngine.UI.Text.md) >**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NzgyNDE5MiwtNDg1MzQ0OTA3LDcxNj
-M1MTQ2MCwtMTU5MDM4MTI5MywtMTcwNjAxNzgwNCwtMjAxNjA3
-MDYzNiw1Njk4NDIzMTgsLTE4ODE2MTIyMSwtMTYwNzMyNDU4OS
-wtNjYyNjYxMTIwLDE0OTgzMjQ0NjMsMTc4NzEzMjE1NCw5MjA3
-NDI0NjAsLTEzMzUzMDQ5ODIsLTQ5NDAxMDE5MSw1ODUwODY1OC
-wtMTMyOTAxNzU5MiwyMDkzOTYyMzY0LC0xNzUwMzI5NzQsMTAw
-ODQ3OTQxMF19
+eyJoaXN0b3J5IjpbLTE5MjA5MTk2MzksLTQ4NTM0NDkwNyw3MT
+YzNTE0NjAsLTE1OTAzODEyOTMsLTE3MDYwMTc4MDQsLTIwMTYw
+NzA2MzYsNTY5ODQyMzE4LC0xODgxNjEyMjEsLTE2MDczMjQ1OD
+ksLTY2MjY2MTEyMCwxNDk4MzI0NDYzLDE3ODcxMzIxNTQsOTIw
+NzQyNDYwLC0xMzM1MzA0OTgyLC00OTQwMTAxOTEsNTg1MDg2NT
+gsLTEzMjkwMTc1OTIsMjA5Mzk2MjM2NCwtMTc1MDMyOTc0LDEw
+MDg0Nzk0MTBdfQ==
 -->
