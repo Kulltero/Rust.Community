@@ -28,7 +28,14 @@ the JSON Schema to send UI to the Player consists of a List of Elements, where e
 | `destroyUi` | string | Destroys the Panel specified in the string before creating your Panel. Useful for updating UI. |
 
 ### About Layers
-layers are used when creating your top most Panel. they differ from Panels because they are static gameObjects that cannot be Destroyed via a DestroyUI call. depending on the Layer you parent to your UI will appear above or below 
+layers are used when creating your top most Panel. they differ from Panels because they are static gameObjects that cannot be Destroyed via a DestroyUI call. depending on the Layer you parent to your UI will appear above or below Rust's own UI elements.
+
+#### Available Layer values
+-   `Overall` the top most layer above all of Rust's UI
+-   `Overlay`
+-   `Hud` 
+-   `Hud.Menu`
+-   `Under` the lower most
 
 
 ### About Naming
@@ -68,7 +75,7 @@ The next Topic explains Components in detail
 **[Back to the Start](/README.md)** | **[Next Topic](/docs/components/README.md) >**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyODkzMjYyNCw4OTcyODQwMzAsODk0NT
-g2OTQ4LC0xMDY0Njk1MzkyLC00MjA0ODM2LC0xMzIxOTkzNDAy
-LDQ3MDY2NzExOSw2ODg2NTI4MCwtMTE2NTg4Mzk2M119
+eyJoaXN0b3J5IjpbOTMxMzcyMjk0LDg5NzI4NDAzMCw4OTQ1OD
+Y5NDgsLTEwNjQ2OTUzOTIsLTQyMDQ4MzYsLTEzMjE5OTM0MDIs
+NDcwNjY3MTE5LDY4ODY1MjgwLC0xMTY1ODgzOTYzXX0=
 -->
