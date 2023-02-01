@@ -26,15 +26,18 @@ the Client couldn't download your Image, double check your URL & look at the err
 
 ---
 
+
 ### A GameObject can only contain one 'Graphic' component.
-this error indicates that you're trying to add multiple Unity Components that Derive from `UnityEngine.UI.Graphic`. the **[Components](/docs/components/README.md)** topic has a list of allowed Components and lists the categories they are in. any Component of the **Visual** Category is a Component that derives from or adds a `UnityEngine.UI.Graphic` to the Panel. to get around this Limitation you can put other Visual Components on a child Panel instead.
+
+This error indicates that you're trying to add multiple Unity Components that derive from `UnityEngine.UI.Graphic`. The **[Components](/docs/components/README.md)** topic has a list of allowed Components and lists the categories they are in. any Component of the **Visual** Category is a Component that derives from or adds a `UnityEngine.UI.Graphic` to the Panel. To get around this Limitation, you can put other Visual Components on a child panel instead.
 
 # Bugs
 
-### Orphaned UI Panels, UI that Can't be Destroyed, or Ghost Panels.
-**Symptom:** you have 1 or more Panels that are stuck on your Screen and can't be removed by Calling **DestroyUI** with their Name.
 
-**Cause:** you have 2 or more Panels that shared the same Name & were active at the same time. if these are parented directly to a Layer and one is destroyed the other Panel Can't be destroyed anymore. the only way to remove the UI Panel from your Screen is by reconnecting. double-check your UI and ensure any Panel directly parented to a Layer has a unique Name. also, ensure that you don't accidentally send the same UI twice.
+### Orphaned UI Panels, UI that Can't be Destroyed, or Ghost Panels. 
+**Symptom:** you have 1 or more panels that are stuck on your Screen and can't be removed by Calling **DestroyUI** with their Name. 
+
+**Cause:** you have 2 or more panels that shared the same name & were active at the same time. If these are parented directly to a Layer and one is destroyed, the other Panel Can't be destroyed anymore. The only way to remove the UI Panel from your Screen is by reconnecting. Double-check your UI and ensure any Panel directly parented to a Layer has a unique Name. Also, ensure that you don't accidentally send the same UI twice.
 
 
 
@@ -127,7 +130,7 @@ a RectTransform Example that covers the Belt-bar
 
 **< [Previous Topic](/docs/components/README.md)** | **[Back to the Start](/README.md)**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNjI0MTU4NiwtMTc2NzQ4NjcyOCwtMz
+eyJoaXN0b3J5IjpbMTIzODc2NjAwMiwtMTc2NzQ4NjcyOCwtMz
 I4MjE1ODIyLC0xMzI3OTA0NTk5LC0yMjQyMDk5MDMsLTgzOTk1
 MDIyNiwtMjAxMDY5NDUyOCwxMjI4NzQxNzQsMjAxOTA0Njg0N1
 19
