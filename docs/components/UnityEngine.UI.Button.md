@@ -14,7 +14,8 @@ The Button Component is an Interactive Component that lets you execute Commands 
 	"sprite": "Assets/Icons/rust.png",
 	"color": "1.0 1.0 1.0 1.0",
 	"material": "",
-	"imagetype": "Simple"
+	"imagetype": "Simple",
+    "fadeIn": 0.0
 }
 ```
 Button-specific Fields:
@@ -26,6 +27,7 @@ Button-specific Fields:
 | `color`     | string | the normalized RGBA values of your color |
 | `material`  | string | the asset Path to the Material |
 | `imagetype` | string (enum `Image.Type`) | sets the display mode of the Image* |
+| `fadeIn`    | float  | the Duration the Panel should take to fade in |
 \*  Currently non-functioning for anything other than Rust's built-in Sprites
 
 ### Button as a Parent
@@ -33,6 +35,6 @@ click events bubble up, meaning that they will get triggered on every Panel unti
 
 **< [Previous Component](/docs/components/UnityEngine.UI.Outline.md)** | **[Back to Components](/docs/components/README.md)** | **[Next Component](/docs/components/UnityEngine.UI.InputField.md) >**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMDAxMDA2LDE2MjQ1ODIzNCwtODc0ND
+eyJoaXN0b3J5IjpbNTYyMDg1NTMyLDE2MjQ1ODIzNCwtODc0ND
 k2NDIyLC0xMjU4ODc1NDYwLC0xMDcyMDU1MDQzXX0=
 -->
