@@ -11,7 +11,8 @@ The Outline Component is an Effect Component that puts a colored outline on any 
 	"type": "UnityEngine.UI.Outline",
 	"color": "1.0 1.0 1.0 1.0",
 	"distance": "1.0 -1.0",
-	"useGraphicAlpha": null
+	"useGraphicAlpha": null,
+    "fadeIn": 0.0
 }
 ```
 > `useGraphicAlpha` is a key presence Field, key presence Fields don't have a specific type and act as a Boolean.
@@ -23,9 +24,10 @@ Outline specific Fields:
 | `color`     | string | the Color of your Outline |
 | `distance`  | string | the distance of your Outline (formatted as `X Y`) |
 | `useGraphicAlpha` | key presence Field | multiplies the Alpha of the graphic onto the color of the Outline |
+| `fadeIn`    | float  | the Duration the Panel should take to fade in |
 
 **< [Previous Component](/docs/components/UnityEngine.UI.Text.md)** | **[Back to Components](/docs/components/README.md)** | **[Next Component](/docs/components/UnityEngine.UI.Button.md) >**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgwODEyNDY0LC03MDkyMTc0MzQsLTc3Mj
-EyNjU2LDEwOTE4MDEwNzIsNzM0MDM1MDc2XX0=
+eyJoaXN0b3J5IjpbMTk4MTY2NzU1NiwtNzA5MjE3NDM0LC03Nz
+IxMjY1NiwxMDkxODAxMDcyLDczNDAzNTA3Nl19
 -->
