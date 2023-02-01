@@ -54,7 +54,7 @@ By default, Rust handles Offsets based on a Resolution of  **1280**  by  **720**
 
 For non-16:9 Resolutions such as Ultrawide or windowed Mode, Rust will apply Letter boxing before calculating the scaling Factor
 
-> NOTE: when scaling offsets rust also takes the player's `graphics.uiscale`into account.
+> NOTE: when scaling offsets rust also takes the player's `graphics.uiscale` into account.
 
 https://user-images.githubusercontent.com/33698270/214582004-c695e73c-9125-4ccb-9cfb-abc883b5c0a0.mp4
 > a video of a gray Rectangle positioned at the Center of the Screen (anchor min & max at  `0.5 0.5`) with an offset of 1280 x 720 px. see how Unity applies Letter boxing before scaling the Rectangle to ensure it never gets stretched. NOTE: the black Bars are only to illustrate in this Example, your in game UI won’t have any black Bars
@@ -62,11 +62,11 @@ https://user-images.githubusercontent.com/33698270/214582004-c695e73c-9125-4ccb-
 
 **[Back to Components](/docs/components/README.md)** | **[Next Component](/docs/components/UnityEngine.UI.RawImage.md) >**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExOTgwODc1NywtNTc4NDkxNTE4LDE4MD
-M0NTQyNTMsMTUzNDc5NjY0OSwtMTYzMjM4MDQ2OSwtMTE5MDQ5
-MDIzNCwxODc1MTMxNTgxLC01ODQ5NjE2MiwtOTg2MTA1NzY2LC
-0xODM4MTIwNjgxLC0xOTIwMDgzNDkzLC0xNTUxNzYyMTcwLC0x
-NzU3NjMxNTgzLDEyNzI0OTQ0NDIsMjQzNDM0MDc0LC0xNjM3Mj
-E0NDQsLTE5OTM0MzAyMjMsLTkzNjc2MTgwNywtMTMzODg3NDc5
-OCwtMTAxMTY5MTIwNF19
+eyJoaXN0b3J5IjpbLTE3MjkzMzM3NjksMTExOTgwODc1NywtNT
+c4NDkxNTE4LDE4MDM0NTQyNTMsMTUzNDc5NjY0OSwtMTYzMjM4
+MDQ2OSwtMTE5MDQ5MDIzNCwxODc1MTMxNTgxLC01ODQ5NjE2Mi
+wtOTg2MTA1NzY2LC0xODM4MTIwNjgxLC0xOTIwMDgzNDkzLC0x
+NTUxNzYyMTcwLC0xNzU3NjMxNTgzLDEyNzI0OTQ0NDIsMjQzND
+M0MDc0LC0xNjM3MjE0NDQsLTE5OTM0MzAyMjMsLTkzNjc2MTgw
+NywtMTMzODg3NDc5OF19
 -->
