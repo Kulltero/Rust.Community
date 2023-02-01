@@ -83,13 +83,13 @@ this error indicates that you're trying to add multiple Unity Components that De
 Outlines can go way beyond the basic use case of putting them on your square Panels. applying Outlines to Text can be a great way to make them stand out, for example when you can't control the background behind it.
 ![image](https://user-images.githubusercontent.com/33698270/215885917-4916ee09-a891-4609-82a4-51bb07881bde.png)
 
-> can you read this?
+> Can you read this?
 
 ![image](https://user-images.githubusercontent.com/33698270/215886796-346be279-2d8e-43c4-a28f-f740bcf50ff5.png)
 
-> adding a 1px outline with a darker color makes it much clearer.
+> Adding a 1px outline with a darker color makes it much clearer.
 
-Another advanced trick is stacking Outlines with lowered Opacity to create a staggered outline or glow/shadow effect. unlike **Visual** Components, the Outline Component doesn't derive from `UnityEngine.UI.Graphic`, meaning there's no limit on how many Outlines a Panel can have.
+Another advanced trick is stacking Outlines with lowered Opacity to create a staggered outline or glow/shadow effect. Unlike **Visual** Components, the Outline Component doesn't derive from `UnityEngine.UI.Graphic`, meaning there's no limit on how many Outlines a Panel can have.
 
 ![image](https://user-images.githubusercontent.com/33698270/215899049-e0aa0cd7-b607-466e-a0b7-0cfafa62bdae.png)
 
@@ -98,16 +98,18 @@ Another advanced trick is stacking Outlines with lowered Opacity to create a sta
 
 ---
 
-### Positioning your CUI alongside rust UI
-for features that augment Rust's existing UI, like when you're working with Furnaces & other storage Inventories, it's important to make sure your CUI doesn't interfere with the UI you augment. 
 
-Rust UI uses the same Placement system CUI does. it primarily uses offsets for sizing & positioning and anchors to a specific Point depending on the UI. by doing the same you can ensure that your CUI is positioned properly, regardless of Screensize & Aspect Ratio.
+### Positioning your CUI alongside rust UI
+
+for features that augment Rust's existing UI, like when you're working with Furnaces & other storage inventories, it's important to make sure your CUI doesn't interfere with the UI you augment.
+
+Rust UI uses the same Placement system CUI does. It primarily uses offsets for sizing & positioning and anchors to a specific Point depending on the UI. by doing the same, you can ensure that your CUI is positioned properly, regardless of Screen size & Aspect Ratio.
 
 UIs like the inventory, belt bar & storage containers are anchored to the bottom of the screen, but many other UIs don't follow that convention.
 
-a great way to discover what a UI element is anchored to is to use the windowed mode and stretch it to extreme aspect ratios. this clearly reveals anchoring thanks to rust's offset scaling
+A great way to discover what a UI element is anchored to is to use the windowed mode and stretch it to extreme aspect ratios. This clearly reveals anchoring thanks to rust's offset scaling
 ![image](https://user-images.githubusercontent.com/33698270/216077347-5461623c-8ff4-4890-8633-062519c4e371.png)
-> stretching our window show that the Crafting & Contacts buttons are anchored to the top middle, while the status bars are anchored to the bottom right corner
+> Stretching our window show that the Crafting & Contacts buttons are anchored to the top middle, while the status bars are anchored to the bottom right corner
 
 a RectTransform Example that covers the Belt-bar
 ```json
@@ -123,7 +125,7 @@ a RectTransform Example that covers the Belt-bar
 
 **< [Previous Topic](/docs/components/README.md)** | **[Back to the Start](/README.md)**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyODIxNTgyMiwtMTMyNzkwNDU5OSwtMj
-I0MjA5OTAzLC04Mzk5NTAyMjYsLTIwMTA2OTQ1MjgsMTIyODc0
-MTc0LDIwMTkwNDY4NDddfQ==
+eyJoaXN0b3J5IjpbMTkyMjA1MzExMCwtMzI4MjE1ODIyLC0xMz
+I3OTA0NTk5LC0yMjQyMDk5MDMsLTgzOTk1MDIyNiwtMjAxMDY5
+NDUyOCwxMjI4NzQxNzQsMjAxOTA0Njg0N119
 -->
