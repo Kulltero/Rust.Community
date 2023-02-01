@@ -6,7 +6,7 @@
 - Unity Documentation: **[RectTransform @ docs.unity3d.com](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/class-RectTransform.html)**
 
 The RectTransform is a Component that specifies the Position & Size of the Panel it's attached to.
-it allows you to position a Panel via [Anchors & Offsets](#anchors-and-offsets).
+It allows you to position a Panel via [Anchors & Offsets](#anchors-and-offsets).
 ```json
 {
 	"type": "RectTransform",
@@ -35,15 +35,16 @@ Unity's Coordinate System in a 2D Space goes from Left to Right, Bottom to Top.
 > this might be confusing to people coming from the web-design space, where the x coordinate commonly goes down the screen instead of up
 
 ## Anchors and Offsets
+Anchors Specify where your Panel starts & ends. Offsets let you move the start & end points with pixel values.
+
+Anchors use a normalized Percentage of the Parent, where  `0.0`  is the Start and  `1.0`  is the End.  [The “Anchors” Section](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/UIBasicLayout.html#anchors)  in the Unity Documentation has some visual examples which also apply here.
+
+Offsets use  [scaled](#offsets-and-scaling)  pixel values to move the corners relative to the Anchors you provide.
+
+Positioning using only anchors is great for when you want your Panel to cover a Percentage of the Screen or Parent, but for any other cases, a mixture of Anchors & Offsets should be used to position your UI.
+
+A common Technique is to use anchors to specify what part of the Parent the UI should be anchored to (Top Left Corner or Dead Center. Etc.) and to use Offsets for Size & Position.
 Anchors Specify where your Panel starts & ends. Offsets let you move the start & end Points with pixel Values.
-
-Anchors use a normalized Percentage of the Parent, where `0.0` is the Start and `1.0` is the End. [The "Anchors" Section](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/UIBasicLayout.html#anchors) in the Unity Documentation has some visual examples which also apply here.
-
-Offsets use [scaled](#offsets-and-scaling) pixel Values to move the Corners relative to the Anchors you provide.
-
-Positioning using only Anchors is great for when you want your Panel to cover a Percentage of the Screen or Parent, but for any other cases, a mixture of Anchors & Offsets should be used to Position your UI.
-
-A common Technique is to use Anchors to specify what part of the Parent the UI should be anchored to (Top Left Corner or Dead Center. Etc.) and to use Offsets for Size & Position.
 
 ## Offsets and Scaling
 Rust will automatically scale Offsets depending on the Player's Resolution, which ensures your Offsets are predictable.
@@ -59,11 +60,11 @@ https://user-images.githubusercontent.com/33698270/214582004-c695e73c-9125-4ccb-
 
 **[Back to Components](/docs/components/README.md)** | **[Next Component](/docs/components/UnityEngine.UI.RawImage.md) >**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMzQ1NDI1MywxNTM0Nzk2NjQ5LC0xNj
-MyMzgwNDY5LC0xMTkwNDkwMjM0LDE4NzUxMzE1ODEsLTU4NDk2
-MTYyLC05ODYxMDU3NjYsLTE4MzgxMjA2ODEsLTE5MjAwODM0OT
-MsLTE1NTE3NjIxNzAsLTE3NTc2MzE1ODMsMTI3MjQ5NDQ0Miwy
-NDM0MzQwNzQsLTE2MzcyMTQ0NCwtMTk5MzQzMDIyMywtOTM2Nz
-YxODA3LC0xMzM4ODc0Nzk4LC0xMDExNjkxMjA0LC0xMjc1MjI0
-OTU5LC05MTAwMzY1MDddfQ==
+eyJoaXN0b3J5IjpbLTYyNDQ4NjkxNiwxODAzNDU0MjUzLDE1Mz
+Q3OTY2NDksLTE2MzIzODA0NjksLTExOTA0OTAyMzQsMTg3NTEz
+MTU4MSwtNTg0OTYxNjIsLTk4NjEwNTc2NiwtMTgzODEyMDY4MS
+wtMTkyMDA4MzQ5MywtMTU1MTc2MjE3MCwtMTc1NzYzMTU4Mywx
+MjcyNDk0NDQyLDI0MzQzNDA3NCwtMTYzNzIxNDQ0LC0xOTkzND
+MwMjIzLC05MzY3NjE4MDcsLTEzMzg4NzQ3OTgsLTEwMTE2OTEy
+MDQsLTEyNzUyMjQ5NTldfQ==
 -->
