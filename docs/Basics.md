@@ -22,7 +22,7 @@ the JSON Schema to send UI to the Player consists of a List of Elements, where e
 | Key | Type     | Notes                |
 | :-- | :------- | :------------------- |
 | `name` | string | The identifier of your panel, needed when destroying UI or adding panels inside this one |
-| `parent` | string | Tells the client which Panel or Layer to Parent to |
+| `parent` | string | Tells the client which Panel or Layer to Parent to.  |
 | `components` |List of Components | One or more Components, without these there’s no point in sending a panel |
 | `fadeOut` | float | Makes the Panel fade out instead of disappearing immediately.  _Currently doesn’t fade out any child panels._ |
 | `destroyUi` | string | Destroys the Panel specified in the string before creating your Panel. Useful for updating UI. |
@@ -65,7 +65,7 @@ The next Topic explains Components in detail
 **[Back to the Start](/README.md)** | **[Next Topic](/docs/components/README.md) >**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDI1OTI5NjMsODk3Mjg0MDMwLDg5ND
-U4Njk0OCwtMTA2NDY5NTM5MiwtNDIwNDgzNiwtMTMyMTk5MzQw
-Miw0NzA2NjcxMTksNjg4NjUyODAsLTExNjU4ODM5NjNdfQ==
+eyJoaXN0b3J5IjpbOTQ4NDM2Mzk5LDg5NzI4NDAzMCw4OTQ1OD
+Y5NDgsLTEwNjQ2OTUzOTIsLTQyMDQ4MzYsLTEzMjE5OTM0MDIs
+NDcwNjY3MTE5LDY4ODY1MjgwLC0xMTY1ODgzOTYzXX0=
 -->
