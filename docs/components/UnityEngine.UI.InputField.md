@@ -45,9 +45,6 @@ an underutilized Power of the InputField is that you can select its contents. Th
 
 It’s recommended to wrap your InputField in another panel, ensuring it's the only child of it’s parent, as it prevents the selected text from being covered by other children.
 
-### needsKeyboard & hudMenuInput fields
-It might be worth mentioning that this if you try to use `needsKeyboard` while the hud is open, the hud will be closed when clicking on the input. Can also mention that, unlike `needsKeyboard`, it doesn't block movement or key binds.
-
 ### Receiving Input & the lineType Setting
 to receive the Player’s input text, listen for the command you specify in the  `command`  field. The Input will get sent as soon as the Player unfocuses the InputField, for example by clicking out of it.
 
@@ -55,8 +52,8 @@ Depending on the  `lineType`  Setting, if it’s set to SingleLine or MultiLineS
 
 **< [Previous Component](/docs/components/UnityEngine.UI.Button.md)** | **[Back to Components](/docs/components/README.md)** | **[Next Component](/docs/components/NeedsX.md) >**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NzYxMzQ0LC0xMzk3NTM0ODM4LC04OT
-Q1ODc1MTgsLTI4MTA2MTk4MiwtNDkxNTgwNDUwLC00NDcyMzky
-MzcsLTU4ODgwOTcxNCwyMDU2MjM1NjY4LC0xNjEyODc1MjcyXX
-0=
+eyJoaXN0b3J5IjpbOTIyNTcyNDkwLC00Nzc2MTM0NCwtMTM5Nz
+UzNDgzOCwtODk0NTg3NTE4LC0yODEwNjE5ODIsLTQ5MTU4MDQ1
+MCwtNDQ3MjM5MjM3LC01ODg4MDk3MTQsMjA1NjIzNTY2OCwtMT
+YxMjg3NTI3Ml19
 -->
