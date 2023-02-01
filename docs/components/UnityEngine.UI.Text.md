@@ -5,7 +5,7 @@
 - Category: **Visual**
 - Unity Documentation: **[Text @ docs.unity3d.com](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/script-Text.html)**
 
-The Text Component is a Visual Component that allows you to display any Text you want. it has Options for Alignment, Color, and overflow Options & Supports RichText.
+The Text Component is a Visual Component that allows you to display any Text you want. It has Options for Alignment, Color, and overflow Options & Supports RichText.
 ```json
 {
 	"type": "UnityEngine.UI.Text",
@@ -62,8 +62,8 @@ for colors, Unity Supports an assortment of named Colors you can find in  **[thi
 
 **< [Previous Component](/docs/components/UnityEngine.UI.Image.md)** | **[Back to Components](/docs/components/README.md)** | **[Next Component](/docs/components/UnityEngine.UI.Outline.md) >**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NTk4NDQ2LDEwNjk5MzEyMzYsMTU5Mj
-k0NDI0LDE3OTg1NzQwOTksLTc4ODEzMDcwNiw4NjYxMjk5NTMs
-LTQwNTEzNjA5OSwtNjk2OTc2NDIzLC02MDQxODcxNiwtMTU0MD
-E0OTYxMiwyMDkyNDY2OTE3XX0=
+eyJoaXN0b3J5IjpbMjEyNzg5NDgzNCwtODQ1OTg0NDYsMTA2OT
+kzMTIzNiwxNTkyOTQ0MjQsMTc5ODU3NDA5OSwtNzg4MTMwNzA2
+LDg2NjEyOTk1MywtNDA1MTM2MDk5LC02OTY5NzY0MjMsLTYwND
+E4NzE2LC0xNTQwMTQ5NjEyLDIwOTI0NjY5MTddfQ==
 -->
