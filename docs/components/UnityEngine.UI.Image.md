@@ -15,7 +15,8 @@ The Image is a Visual Component that allows you to display Images from your Serv
 	"imagetype": "Simple",
 	"png": "",
 	"itemid": 0,
-	"skinid": 0
+	"skinid": 0,
+    "fadeIn": 0.0
 }
 ```
 RawImage specific Fields:
@@ -28,6 +29,7 @@ RawImage specific Fields:
 | `png`       | string | the CRC Checksum of the Image hosted on the Server |
 | `itemid`    | int    | the Item ID of your item |
 | `skinid`    | ulong  | the Skin ID of your skin |
+| `fadeIn`    | float  | the Duration the Panel should take to fade in |
 \*  Currently non-functioning for anything other than Rust's built-in Sprites
 ## RawImages vs Images
 Like RawImages, Images share the ability to show Sprites, Colors, Materials & Images hosted on the Server, but they cannot directly load Images from the Web.
@@ -50,11 +52,11 @@ int itemid = itemDef.itemid;
 check the [RawImage](/docs/components/UnityEngine.UI.RawImage.md) Documentation to learn about Fields the Components share.
 **< [Previous Component](/docs/components/UnityEngine.UI.RawImage.md)** | **[Back to Components](/docs/components/README.md)** | **[Next Component](/docs/components/UnityEngine.UI.Text.md) >**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MjQ2Njg5NiwtMTU5MDM4MTI5MywtMT
-cwNjAxNzgwNCwtMjAxNjA3MDYzNiw1Njk4NDIzMTgsLTE4ODE2
-MTIyMSwtMTYwNzMyNDU4OSwtNjYyNjYxMTIwLDE0OTgzMjQ0Nj
-MsMTc4NzEzMjE1NCw5MjA3NDI0NjAsLTEzMzUzMDQ5ODIsLTQ5
-NDAxMDE5MSw1ODUwODY1OCwtMTMyOTAxNzU5MiwyMDkzOTYyMz
-Y0LC0xNzUwMzI5NzQsMTAwODQ3OTQxMCwtMTA1ODI3NzE5MCwt
-OTQ3MDM3ODY4XX0=
+eyJoaXN0b3J5IjpbNzE2MzUxNDYwLC0xNTkwMzgxMjkzLC0xNz
+A2MDE3ODA0LC0yMDE2MDcwNjM2LDU2OTg0MjMxOCwtMTg4MTYx
+MjIxLC0xNjA3MzI0NTg5LC02NjI2NjExMjAsMTQ5ODMyNDQ2My
+wxNzg3MTMyMTU0LDkyMDc0MjQ2MCwtMTMzNTMwNDk4MiwtNDk0
+MDEwMTkxLDU4NTA4NjU4LC0xMzI5MDE3NTkyLDIwOTM5NjIzNj
+QsLTE3NTAzMjk3NCwxMDA4NDc5NDEwLC0xMDU4Mjc3MTkwLC05
+NDcwMzc4NjhdfQ==
 -->
