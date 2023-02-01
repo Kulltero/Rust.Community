@@ -21,6 +21,7 @@ The InputField Component is an Interactive Component that allows Players to ente
 	"needsKeyboard": null,
 	"hudMenuInput": null,
 	"autofocus": null,
+    "fadeIn": 0.0
 }
 ```
 > `password`, `needsKeyboard`, `hudMenuInput`,  and `autofocus` are key presence Fields, key presence Fields don't have a specific type and act as a Boolean.
@@ -37,6 +38,12 @@ InputField specific Fields:
 | `needsKeyboard`  | key presence Field | prevents default Keyboard behavior (movement, item switching etc) while the field is Focused |
 | `hudMenuInput`  | key presence Field | same as above but for Rust UI (Inventory, Crafting, etc.) |
 | `autofocus`  | key presence Field | selects the field upon creation |
+| `fadeIn`    | float  | the Duration the Panel should take to fade in |
+
+### Selecting Text
+an underutilized Power of the InputField is that you can select its contents. this is helpful when creating forms & editors, but can also be used for other features. you can use it for displaying links to your website or discord, allowing players to select and copy it instead of having to type it out
+
+it's recommended to wrap your InputField in another panel, ensuring its the only child of it's parent as it prevents the Selected text from being covered by other children.
 
 ### Receiving Input & the lineType Setting
 to receive the Player's input Text, listen for the Command you specify in the `command` field. the Input will get sent as soon as the Player unfocuses the InputField, for example by clicking out of it.
@@ -45,8 +52,8 @@ depending on the `lineType` Setting, if it's set to SingleLine or MultiLineSubmi
 
 **< [Previous Component](/docs/components/UnityEngine.UI.Button.md)** | **[Back to Components](/docs/components/README.md)** | **[Next Component](/docs/components/NeedsX.md) >**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjI4Njc1NjAsLTEzOTc1MzQ4MzgsLT
-g5NDU4NzUxOCwtMjgxMDYxOTgyLC00OTE1ODA0NTAsLTQ0NzIz
-OTIzNywtNTg4ODA5NzE0LDIwNTYyMzU2NjgsLTE2MTI4NzUyNz
-JdfQ==
+eyJoaXN0b3J5IjpbNzg0ODczNDc0LC0xMzk3NTM0ODM4LC04OT
+Q1ODc1MTgsLTI4MTA2MTk4MiwtNDkxNTgwNDUwLC00NDcyMzky
+MzcsLTU4ODgwOTcxNCwyMDU2MjM1NjY4LC0xNjEyODc1MjcyXX
+0=
 -->
