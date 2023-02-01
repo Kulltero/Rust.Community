@@ -25,11 +25,11 @@ RawImage specific Fields:
 | `sprite`    | string | The asset Path to the sprite |
 | `color`     | string | The normalized RGBA values of your color |
 | `material`  | string | The asset Path to the Material |
-| `imagetype` | string (enum `Image.Type`) | sets the display mode of the Image* |
+| `imagetype` | string (enum `Image.Type`) | Sets the display mode of the Image* |
 | `png`       | string | The CRC Checksum of the Image hosted on the Server |
 | `itemid`    | int    | The Item ID of your item |
-| `skinid`    | ulong  | the Skin ID of your skin |
-| `fadeIn`    | float  | the Duration the Panel should take to fade in |
+| `skinid`    | ulong  | The Skin ID of your skin |
+| `fadeIn`    | float  | The Duration the Panel should take to fade in |
 \*  Currently non-functioning for anything other than Rust's built-in Sprites
 ## RawImages vs Images
 Like RawImages, Images share the ability to show Sprites, Colors, Materials & Images hosted on the Server, but they cannot directly load images from the Web.
@@ -52,11 +52,11 @@ int itemid = itemDef.itemid;
 check the [RawImage](/docs/components/UnityEngine.UI.RawImage.md) Documentation to learn about Fields the Components share.
 **< [Previous Component](/docs/components/UnityEngine.UI.RawImage.md)** | **[Back to Components](/docs/components/README.md)** | **[Next Component](/docs/components/UnityEngine.UI.Text.md) >**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNzg4MTIxNiw3MTYzNTE0NjAsLTE1OT
-AzODEyOTMsLTE3MDYwMTc4MDQsLTIwMTYwNzA2MzYsNTY5ODQy
-MzE4LC0xODgxNjEyMjEsLTE2MDczMjQ1ODksLTY2MjY2MTEyMC
-wxNDk4MzI0NDYzLDE3ODcxMzIxNTQsOTIwNzQyNDYwLC0xMzM1
-MzA0OTgyLC00OTQwMTAxOTEsNTg1MDg2NTgsLTEzMjkwMTc1OT
-IsMjA5Mzk2MjM2NCwtMTc1MDMyOTc0LDEwMDg0Nzk0MTAsLTEw
-NTgyNzcxOTBdfQ==
+eyJoaXN0b3J5IjpbOTI3NDU4MDE2LDcxNjM1MTQ2MCwtMTU5MD
+M4MTI5MywtMTcwNjAxNzgwNCwtMjAxNjA3MDYzNiw1Njk4NDIz
+MTgsLTE4ODE2MTIyMSwtMTYwNzMyNDU4OSwtNjYyNjYxMTIwLD
+E0OTgzMjQ0NjMsMTc4NzEzMjE1NCw5MjA3NDI0NjAsLTEzMzUz
+MDQ5ODIsLTQ5NDAxMDE5MSw1ODUwODY1OCwtMTMyOTAxNzU5Mi
+wyMDkzOTYyMzY0LC0xNzUwMzI5NzQsMTAwODQ3OTQxMCwtMTA1
+ODI3NzE5MF19
 -->
