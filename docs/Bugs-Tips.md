@@ -60,7 +60,7 @@ this error indicates that you're trying to add multiple Unity Components that De
 ---
 
 ### Panels with a blur Material & Transparency cause underlying Panels to be invisible.
-**Symptom:** when using a burry Material on a Color with Transparency, any underlying Image Components with blur get cut out. 
+**Symptom:** when using a blurry Material on a Color with Transparency, any underlying Image Components with blur get cut out. 
 **Visual Example:**
 ![image](https://user-images.githubusercontent.com/33698270/215882128-d1f0798c-d7ed-4986-9675-4fba48632ad7.png)
 > an image of the following UI setup
@@ -73,14 +73,14 @@ this error indicates that you're trying to add multiple Unity Components that De
 > square 3: child of Parent, gray with 20% alpha and a text element behind it.
 
 
-**Cause:** no exact Cause is known, but it seems to be related to the blurry Materials themselves. this bug only occurs when all underlying Images are using a blurry material with transparency. if at least 1 element is opaque the bug does not occur. this can be a text or image element.
+**Cause:** no exact Cause is known, but it seems to be related to the blurry Materials themselves. This bug only occurs when all underlying Images are using a blurry material with transparency. If at least 1 element is opaque, the bug does not occur. This can be a text or image element.
 
 
 
 # Tricks
 
 ### Use Outlines like an advanced User
-Outlines can go way beyond the basic use case of putting them on your square Panels. applying Outlines to Text can be a great way to make them stand out, for example when you can't control the background behind it.
+Outlines can go way beyond the basic use case of putting them on your square Panels. Applying Outlines to Text can be a great way to make them stand out, for example when you can't control the background behind it.
 ![image](https://user-images.githubusercontent.com/33698270/215885917-4916ee09-a891-4609-82a4-51bb07881bde.png)
 
 > Can you read this?
@@ -125,7 +125,7 @@ a RectTransform Example that covers the Belt-bar
 
 **< [Previous Topic](/docs/components/README.md)** | **[Back to the Start](/README.md)**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMjA1MzExMCwtMzI4MjE1ODIyLC0xMz
-I3OTA0NTk5LC0yMjQyMDk5MDMsLTgzOTk1MDIyNiwtMjAxMDY5
-NDUyOCwxMjI4NzQxNzQsMjAxOTA0Njg0N119
+eyJoaXN0b3J5IjpbLTE3Njc0ODY3MjgsLTMyODIxNTgyMiwtMT
+MyNzkwNDU5OSwtMjI0MjA5OTAzLC04Mzk5NTAyMjYsLTIwMTA2
+OTQ1MjgsMTIyODc0MTc0LDIwMTkwNDY4NDddfQ==
 -->
