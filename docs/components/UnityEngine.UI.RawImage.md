@@ -88,11 +88,11 @@ when using an image you can use the `color` property to modify the image's Color
 
 ---
 before using RawImage, take a look at the Image Component to see if it's better suited for your usecase.
-**< [Previous Component](/docs/components/README.md)** | **[Back to Components](/docs/components/README.md)** | **[Next Component](/docs/components/UnityEngine.UI.RawImage.md) >**
+**< [Previous Component](/docs/components/README.md)** | **[Back to Components](/docs/components/README.md)** | **[Next Component](/docs/components/UnityEngine.UI.Image.md) >**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTU1MjMxMjIsLTIwNTU5MjM4OTEsLT
-ExOTE2OTE1MjQsLTQ1OTc4ODkyMywtMjY1ODQ2MDIyLDE0ODM4
-OTMwOTksLTE0NDg4NjIwNjksLTExNTY1NzM0OTgsLTE2Njg5Mj
-IxNiw3MjIwODM0NTAsNTg5Mzg3MDM0LDE5NDc0MjQ1ODUsLTIw
-ODU4NTMyNjFdfQ==
+eyJoaXN0b3J5IjpbLTE4ODU1NjI1MDgsLTE3OTU1MjMxMjIsLT
+IwNTU5MjM4OTEsLTExOTE2OTE1MjQsLTQ1OTc4ODkyMywtMjY1
+ODQ2MDIyLDE0ODM4OTMwOTksLTE0NDg4NjIwNjksLTExNTY1Nz
+M0OTgsLTE2Njg5MjIxNiw3MjIwODM0NTAsNTg5Mzg3MDM0LDE5
+NDc0MjQ1ODUsLTIwODU4NTMyNjFdfQ==
 -->
