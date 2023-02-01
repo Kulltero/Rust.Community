@@ -31,10 +31,11 @@ Button-specific Fields:
 \*  Currently non-functioning for anything other than Rust's built-in Sprites
 
 ### Button as a Parent
-click events bubble up, meaning that they will get triggered on every Panel until a Component consumes them. This means it's possible to use the Button as a Parent and still get notified when the Player clicks a child Panel.
+click events bubble up, meaning that they will get triggered on every Panel until a Component consumes them. This means it’s possible to use the Button as a Parent and still get notified when the Player clicks a child panel.
 
 **< [Previous Component](/docs/components/UnityEngine.UI.Outline.md)** | **[Back to Components](/docs/components/README.md)** | **[Next Component](/docs/components/UnityEngine.UI.InputField.md) >**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NzA5NjY3OCwxNjI0NTgyMzQsLTg3ND
-Q5NjQyMiwtMTI1ODg3NTQ2MCwtMTA3MjA1NTA0M119
+eyJoaXN0b3J5IjpbLTE0NTM2OTY2MjAsMjA3NzA5NjY3OCwxNj
+I0NTgyMzQsLTg3NDQ5NjQyMiwtMTI1ODg3NTQ2MCwtMTA3MjA1
+NTA0M119
 -->
