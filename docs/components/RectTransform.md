@@ -55,12 +55,12 @@ For non-16:9 Resolutions such as Ultrawide or windowed Mode, Rust will apply Let
 
 
 https://user-images.githubusercontent.com/33698270/214582004-c695e73c-9125-4ccb-9cfb-abc883b5c0a0.mp4
-> a video of a gray Rectangle positioned at the Center of the Screen (anchor min & max at `0.5 0.5`) with an offset of 1280 x 720 px. see how Unity applies Letterboxing before scaling the Rectangle to ensure it never gets stretched. NOTE: the black Bars are only to illustrate in this Example, your ingame UI won't have any black Bars
+> a video of a gray Rectangle positioned at the Center of the Screen (anchor min & max at  `0.5 0.5`) with an offset of 1280 x 720 px. see how Unity applies Letter boxing before scaling the Rectangle to ensure it never gets stretched. NOTE: the black Bars are only to illustrate in this Example, your in game UI won’t have any black Bars
 
 
 **[Back to Components](/docs/components/README.md)** | **[Next Component](/docs/components/UnityEngine.UI.RawImage.md) >**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNDQ4NjkxNiwxODAzNDU0MjUzLDE1Mz
+eyJoaXN0b3J5IjpbLTU3ODQ5MTUxOCwxODAzNDU0MjUzLDE1Mz
 Q3OTY2NDksLTE2MzIzODA0NjksLTExOTA0OTAyMzQsMTg3NTEz
 MTU4MSwtNTg0OTYxNjIsLTk4NjEwNTc2NiwtMTgzODEyMDY4MS
 wtMTkyMDA4MzQ5MywtMTU1MTc2MjE3MCwtMTc1NzYzMTU4Mywx
