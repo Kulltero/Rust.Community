@@ -105,7 +105,9 @@ Rust UI uses the same Placement system CUI does. it primarily uses offsets for s
 
 UIs like the inventory, beltbar & storage containers are anchored to the bottom of the screen, but many other UIs dont follow that convention.
 
-a great way to discover what a UI element is anchored to is to use the windowed mode and stretch it to extreme aspect ratios
+a great way to discover what a UI element is anchored to is to use the windowed mode and stretch it to extreme aspect ratios. this reveals anchoring in a clear way thanks to rust's offset scaling
+![image](https://user-images.githubusercontent.com/33698270/216077347-5461623c-8ff4-4890-8633-062519c4e371.png)
+> stretching our window show that the Crafting & Contacts buttons are anchored to the top middle, while the status bars are anchored to the bottom right corner
 
 a RectTransform Example that covers the Belt-bar
 ```json
