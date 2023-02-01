@@ -105,7 +105,7 @@ Rust UI uses the same Placement system CUI does. it primarily uses offsets for s
 
 UIs like the inventory, beltbar & storage containers are anchored to the bottom of the screen, but many other UIs dont follow that convention.
 
-a great way to discover  wh
+a great way to discover what a UI element is anchored to is to use the windowed mode and stretch it to extreme aspect ratios
 
 a RectTransform Example that covers the Belt-bar
 ```json
@@ -121,7 +121,7 @@ a RectTransform Example that covers the Belt-bar
 
 **< [Previous Topic](/docs/components/README.md)** | **[Back to the Start](/README.md)** | **[Next Topic](/README.md) >**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NzYwNDU1MSwtMjI0MjA5OTAzLC04Mz
-k5NTAyMjYsLTIwMTA2OTQ1MjgsMTIyODc0MTc0LDIwMTkwNDY4
-NDddfQ==
+eyJoaXN0b3J5IjpbLTEzMjc5MDQ1OTksLTIyNDIwOTkwMywtOD
+M5OTUwMjI2LC0yMDEwNjk0NTI4LDEyMjg3NDE3NCwyMDE5MDQ2
+ODQ3XX0=
 -->
