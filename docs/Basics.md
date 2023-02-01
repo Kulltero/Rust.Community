@@ -4,6 +4,7 @@
 There are a few basic Concepts that are needed to make your own CUI, below you will learn about what Panels are & how to create and destroy UI Elements
 
 ## The Schema
+
 the JSON Schema to send UI to the Player consists of a List of Elements, where each Element creates a new Panel on the Client. Elements have One or more Components that control the Look & Functionality.
 
 ```json
@@ -15,14 +16,14 @@ the JSON Schema to send UI to the Player consists of a List of Elements, where e
 	"destroyUi": ""
 }, ...]
 ```
-> the values in these JSON examples represent the default Values that are assigned if no property is specified.
+> The values in these JSON examples represent the default values that are assigned if no property is specified.  
 > … represent One or more collapsed Objects
 
 | Key | Type     | Notes                |
 | :-- | :------- | :------------------- |
-| `name` | string | the identifier of your panel, needed when destroying UI or adding panels inside this one |
-| `parent` | string | tells the client which Panel or Layer to Parent to |
-| `components` | One or more Components, without these there’s no point in sending a panel |
+| `name` | string | The identifier of your panel, needed when destroying UI or adding panels inside this one |
+| `parent` | string | Tells the client which Panel or Layer to Parent to |
+| `components` |List of Components | One or more Components, without these there’s no point in sending a panel |
 | `fadeOut` | float | Makes the Panel fade out instead of disappearing immediately.  _Currently doesn’t fade out any child panels._ |
 | `destroyUi` | string | Destroys the Panel specified in the string before creating your Panel. Useful for updating UI. |
 
@@ -64,7 +65,7 @@ The next Topic explains Components in detail
 **[Back to the Start](/README.md)** | **[Next Topic](/docs/components/README.md) >**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NzI0MjU3OCw4OTcyODQwMzAsODk0NT
-g2OTQ4LC0xMDY0Njk1MzkyLC00MjA0ODM2LC0xMzIxOTkzNDAy
-LDQ3MDY2NzExOSw2ODg2NTI4MCwtMTE2NTg4Mzk2M119
+eyJoaXN0b3J5IjpbLTE5NDI1OTI5NjMsODk3Mjg0MDMwLDg5ND
+U4Njk0OCwtMTA2NDY5NTM5MiwtNDIwNDgzNiwtMTMyMTk5MzQw
+Miw0NzA2NjcxMTksNjg4NjUyODAsLTExNjU4ODM5NjNdfQ==
 -->
