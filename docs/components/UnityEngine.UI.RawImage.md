@@ -13,7 +13,8 @@ The RawImage is a Visual Component that allows you to display Images from your S
 	"color": "1.0 1.0 1.0 1.0",
 	"material": "",
 	"url": "",
-	"png": ""
+	"png": "",
+    "fadeIn": 0.0
 }
 ```
 RawImage specific Fields:
@@ -24,6 +25,7 @@ RawImage specific Fields:
 | `material`  | string | the asset Path to the Material |
 | `url`       | string | the URL of the Image you want to show |
 | `png`       | string | the CRC Checksum of the Image hosted on the Server |
+| `fadeIn`    | float  | the Duration the Panel should take to fade in |
 
 ## Images can be your Backgrounds
 the most common use for RawImage is its Ability to display any* Color you give it.  therefore it's often used to give Panels a Background Color. Colors are sent as a `string` of 4 normalized `floats`
@@ -88,7 +90,7 @@ when using an image you can use the `color` property to modify the image's Color
 before using RawImage, take a look at the Image Component to see if it's better suited for your usecase.
 **< [Previous Component](/docs/components/README.md)** | **[Back to Components](/docs/components/README.md)** | **[Next Component](/docs/components/UnityEngine.UI.RawImage.md) >**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODQwNTM2NzAsLTIwNTU5MjM4OTEsLT
+eyJoaXN0b3J5IjpbLTE3OTU1MjMxMjIsLTIwNTU5MjM4OTEsLT
 ExOTE2OTE1MjQsLTQ1OTc4ODkyMywtMjY1ODQ2MDIyLDE0ODM4
 OTMwOTksLTE0NDg4NjIwNjksLTExNTY1NzM0OTgsLTE2Njg5Mj
 IxNiw3MjIwODM0NTAsNTg5Mzg3MDM0LDE5NDc0MjQ1ODUsLTIw
