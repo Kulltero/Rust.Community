@@ -5,7 +5,9 @@
 - Category: **Visual**
 - Unity Documentation: **[RawImage @ docs.unity3d.com](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/script-RawImage.html)**
 
-The RawImage is a Visual Component that allows you to display Images from your Server & the Web or Rust Sprites. it can also be used with a single color to act as a Background for your panel
+the most common use for RawImage is its Ability to display any* Color you give it. Therefore, it’s often used to give panels a Background Color. Colors are sent as a  `string`  of 4 normalized  `floats`
+
+Tip: if you’re used to using hexadecimal, you can use this function to convert your colors on the fly:
 ```json
 {
 	"type": "UnityEngine.UI.RawImage",
@@ -50,7 +52,7 @@ static public string NormalizeHex(string hex, byte alpha = 255){
 ```
 
 Images can also be combined with a Subset of Materials to enhance your UIs, some Materials can be combined with a Color, while others will enforce their own Color. some Materials won't have any visual Effect.
-> \* Colors are limited to a Precision of 0.01 per Channel, giving you only 1.000.000 Colors to choose from (excluding the alpha Channel)
+> \* Colors are limited to a Precision of 0.01 per Channel, giving you only 1,000,000 Colors to choose from (excluding the alpha Channel)
 
 ## Using Rust's Sprites
 You can re-use any of Rust's Sprites by specifying an asset path in the `sprite` field. 
@@ -90,9 +92,9 @@ when using an image you can use the `color` property to modify the image's Color
 before using RawImage, take a look at the Image Component to see if it's better suited for your usecase.
 **< [Previous Component](/docs/components/README.md)** | **[Back to Components](/docs/components/README.md)** | **[Next Component](/docs/components/UnityEngine.UI.Image.md) >**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODU1NjI1MDgsLTE3OTU1MjMxMjIsLT
-IwNTU5MjM4OTEsLTExOTE2OTE1MjQsLTQ1OTc4ODkyMywtMjY1
-ODQ2MDIyLDE0ODM4OTMwOTksLTE0NDg4NjIwNjksLTExNTY1Nz
-M0OTgsLTE2Njg5MjIxNiw3MjIwODM0NTAsNTg5Mzg3MDM0LDE5
-NDc0MjQ1ODUsLTIwODU4NTMyNjFdfQ==
+eyJoaXN0b3J5IjpbLTY4NTE5ODE0LC0xODg1NTYyNTA4LC0xNz
+k1NTIzMTIyLC0yMDU1OTIzODkxLC0xMTkxNjkxNTI0LC00NTk3
+ODg5MjMsLTI2NTg0NjAyMiwxNDgzODkzMDk5LC0xNDQ4ODYyMD
+Y5LC0xMTU2NTczNDk4LC0xNjY4OTIyMTYsNzIyMDgzNDUwLDU4
+OTM4NzAzNCwxOTQ3NDI0NTg1LC0yMDg1ODUzMjYxXX0=
 -->
