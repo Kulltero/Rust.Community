@@ -2,7 +2,7 @@
 
 **< [Previous Topic](/docs/components/README.md)** | **[Back to the Start](/README.md)**
 
-When working with the CUI System you will often encounter weird Bugs & Situations. this document lists some ways to prevent them & shows you additional tricks to enhance your UIs
+When working with the CUI System, you will often encounter weird Bugs & Situations. This document lists some ways to prevent them & shows you additional tricks to enhance your UIs.
 
 ## Table of Contents
 - [Common Error Messages](#common-error-messages)
@@ -132,8 +132,8 @@ a RectTransform Example that covers the Belt-bar
 
 **< [Previous Topic](/docs/components/README.md)** | **[Back to the Start](/README.md)**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc1MTYxMTMsLTE3Njc0ODY3MjgsLTMyOD
-IxNTgyMiwtMTMyNzkwNDU5OSwtMjI0MjA5OTAzLC04Mzk5NTAy
-MjYsLTIwMTA2OTQ1MjgsMTIyODc0MTc0LDIwMTkwNDY4NDddfQ
-==
+eyJoaXN0b3J5IjpbLTM3MDQxNzQxNSwtMTc2NzQ4NjcyOCwtMz
+I4MjE1ODIyLC0xMzI3OTA0NTk5LC0yMjQyMDk5MDMsLTgzOTk1
+MDIyNiwtMjAxMDY5NDUyOCwxMjI4NzQxNzQsMjAxOTA0Njg0N1
+19
 -->
