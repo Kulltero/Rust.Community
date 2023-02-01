@@ -19,10 +19,10 @@ It allows you to position a Panel via [Anchors & Offsets](#anchors-and-offsets).
 RectTransform specific Fields:
 | Key         | Type   | Notes                |
 | :---------- | :----- | :------------------- |
-| `anchormin` | string | specifies the anchor for the bottom left Corner |
-| `anchormax` | string | specifies the anchor for the top right Corner |
-| `offsetmin` | string | specifies the Pixel offset for the bottom left Corner |
-| `offsetmax` | string | specifies the Pixel offset for the top right Corner |
+| `anchormin` | string | Specifies the anchor for the bottom left Corner |
+| `anchormax` | string | Specifies the anchor for the top right Corner |
+| `offsetmin` | string | Specifies the Pixel offset for the bottom left Corner |
+| `offsetmax` | string | Specifies the Pixel offset for the top right Corner |
 
 both Anchors & Offsets come with a *-min* and *-max* Field, where the min holds x & y Values for the bottom left Corner & the max holds x & y Values for the top right Corner
 
@@ -62,7 +62,7 @@ https://user-images.githubusercontent.com/33698270/214582004-c695e73c-9125-4ccb-
 
 **[Back to Components](/docs/components/README.md)** | **[Next Component](/docs/components/UnityEngine.UI.RawImage.md) >**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2Njg5MDYxMywtNTc4NDkxNTE4LDE4MD
+eyJoaXN0b3J5IjpbMTExOTgwODc1NywtNTc4NDkxNTE4LDE4MD
 M0NTQyNTMsMTUzNDc5NjY0OSwtMTYzMjM4MDQ2OSwtMTE5MDQ5
 MDIzNCwxODc1MTMxNTgxLC01ODQ5NjE2MiwtOTg2MTA1NzY2LC
 0xODM4MTIwNjgxLC0xOTIwMDgzNDkzLC0xNTUxNzYyMTcwLC0x
