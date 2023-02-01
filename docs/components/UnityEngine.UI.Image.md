@@ -34,15 +34,10 @@ RawImage specific Fields:
 
 ## imagetype and sprites
 the imagetype lets you provide a specific `Image.Type` option to change how the Component renders the image. 
-Name
-
-Description
-
-Value
-
-Simple
-
-Displays the full Image
+| Value | Description |
+| :---- | :---------- |
+| `Simple` | Displays the full Image |
+| ||
 Sliced
 
 Displays the Image as a 9-sliced graphic.
@@ -76,7 +71,7 @@ int itemid = itemDef.itemid;
 check the [RawImage](/docs/components/UnityEngine.UI.RawImage.md) Documentation to learn about Fields the Components share.
 **< [Previous Component](/docs/components/UnityEngine.UI.RawImage.md)** | **[Back to Components](/docs/components/README.md)** | **[Next Component](/docs/components/UnityEngine.UI.Text.md) >**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMzAwNzEzOCw3MTYzNTE0NjAsLTE1OT
+eyJoaXN0b3J5IjpbMTk1NTc2NjUxOSw3MTYzNTE0NjAsLTE1OT
 AzODEyOTMsLTE3MDYwMTc4MDQsLTIwMTYwNzA2MzYsNTY5ODQy
 MzE4LC0xODgxNjEyMjEsLTE2MDczMjQ1ODksLTY2MjY2MTEyMC
 wxNDk4MzI0NDYzLDE3ODcxMzIxNTQsOTIwNzQyNDYwLC0xMzM1
