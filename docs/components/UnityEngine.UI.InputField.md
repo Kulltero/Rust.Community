@@ -5,7 +5,7 @@
 - Category: **Interactive, Visual**
 - Unity Documentation: **[InputField @ docs.unity3d.com](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/script-InputField.html)**
 
-The InputField Component is an Interactive Component that allows Players to enter arbitrary text that gets sent back as a Command. it automatically adds a `UnityEngine.UI.Text` to the panel, allowing you to  change the `fontSize`, `font`, `align`ment & text`color` of it
+The InputField Component is an Interactive Component that allows Players to enter arbitrary text that gets sent back as a Command. It automatically adds a  `UnityEngine.UI.Text`  to the panel, allowing you to change the  `fontSize`,  `font`,  `align`ment & text`color`  of it.
 ```json
 {
 	"type": "UnityEngine.UI.InputField",
@@ -25,7 +25,7 @@ The InputField Component is an Interactive Component that allows Players to ente
 }
 ```
 > `password`, `needsKeyboard`, `hudMenuInput`,  and `autofocus` are key presence Fields, key presence Fields don't have a specific type and act as a Boolean.
-> if the key is present it equals true, if absent it equals false.
+> If the key is present it equals true, if absent it equals false.
 
 InputField specific Fields:
 | Key         | Type   | Notes                |
@@ -52,7 +52,7 @@ depending on the `lineType` Setting, if it's set to SingleLine or MultiLineSubmi
 
 **< [Previous Component](/docs/components/UnityEngine.UI.Button.md)** | **[Back to Components](/docs/components/README.md)** | **[Next Component](/docs/components/NeedsX.md) >**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTU5NzA0NDcsLTEzOTc1MzQ4MzgsLT
+eyJoaXN0b3J5IjpbLTEwMzAyOTQ3MjEsLTEzOTc1MzQ4MzgsLT
 g5NDU4NzUxOCwtMjgxMDYxOTgyLC00OTE1ODA0NTAsLTQ0NzIz
 OTIzNywtNTg4ODA5NzE0LDIwNTYyMzU2NjgsLTE2MTI4NzUyNz
 JdfQ==
