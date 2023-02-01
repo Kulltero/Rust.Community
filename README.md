@@ -30,13 +30,13 @@ External Contributors & People who improved the CUI System
 - [@Alitop](https://github.com/Alitop) - PR [#32](https://github.com/Facepunch/Rust.Community/pull/32)
 - [@TactiTac0z](https://github.com/TactiTac0z) - PR [#40](https://github.com/Facepunch/Rust.Community/pull/40)
 - [@Kulltero](https://github.com/Kulltero) - PR [#43](https://github.com/Facepunch/Rust.Community/pull/43)
-> And of course, Facepunch, who has put a lot of ffort into giving Developers the CUI System & the ability to improve it
+> And of course, Facepunch, who has put a lot of effort into giving Developers the CUI System & the ability to improve it.
 
 ---
 ### Disclaimer
-the readme & Documentation is Community maintained it aims to give Developers a starting Point and educate them on effectively using CUIs for their Projects
+The README & Documentation is Community maintained. It aims to give Developers a starting Point and educate them on effectively using CUIs for their Projects
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc0NTEwNTI4LDIwNzM3Mjg5NTgsMTkwNj
-c4ODUzOSw4NDg5MzI3NjksLTQ0OTI3NDk0MywtMjAxNTgxMTc0
-NSwtMTE0NDA4MDU3MywtMjEyNjQ3MjMwNV19
+eyJoaXN0b3J5IjpbLTEyOTUyMTA1OSwyMDczNzI4OTU4LDE5MD
+Y3ODg1MzksODQ4OTMyNzY5LC00NDkyNzQ5NDMsLTIwMTU4MTE3
+NDUsLTExNDQwODA1NzMsLTIxMjY0NzIzMDVdfQ==
 -->
