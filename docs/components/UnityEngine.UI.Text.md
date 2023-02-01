@@ -21,13 +21,13 @@ The Text Component is a Visual Component that allows you to display any Text you
 Text-specific Fields:
 | Key         | Type   | Notes                |
 | :---------- | :----- | :------------------- |
-| `text`      | string | the Content of your Text Component |
-| `fontSize`  | int    | the default font size of your Text |
-| `font`      | string | the Asset name of the Font you wish to use |
-| `align`     | string (enum `TextAnchor`) | the way your Text should be aligned |
-| `color`     | string | the default Color of your Text |
-| `verticalOverflow` | string (enum `VerticalWrapMode`) | how Text Overflowing vertically should be handled |
-| `fadeIn`    | float  | the Duration the Panel should take to fade in |
+| `text`      | string | The Content of your Text Component |
+| `fontSize`  | int    | The default font size of your Text |
+| `font`      | string | The Asset name of the Font you wish to use |
+| `align`     | string (enum `TextAnchor`) | The way your Text should be aligned |
+| `color`     | string | The default Color of your Text |
+| `verticalOverflow` | string (enum `VerticalWrapMode`) | How Text Overflowing vertically should be handled |
+| `fadeIn`    | float  | The Duration the Panel should take to fade in |
 
 ### Available Fonts:
 -   `DroidSansMono.ttf`
@@ -43,9 +43,9 @@ Text-specific Fields:
 
 
 ## Using Unity RichText
-Rust Allows you to use Unity **[Rich Text](https://docs.unity3d.com/2021.3/Documentation/Manual/StyledText.html)** to give you more control over text styling. this lets you empathize Paragraphs, Sentences, Words & individual Letters.
+Rust Allows you to use Unity  **[Rich Text](https://docs.unity3d.com/2021.3/Documentation/Manual/StyledText.html)**  to give you more control over text styling. This lets you empathize Paragraphs, Sentences, Words & individual Letters.
 
-to modify a selection of text, simply wrap it in XML-style tags: `<b>i am bold</b>`
+To modify a selection of text, simply wrap it in XML-style tags:  `<b>i am bold</b>`  
 RichText tags can be Nested to combine Effects:  `<b>bold and <color=red>in red</color></b>`
 
 Supported Tags:
@@ -55,15 +55,14 @@ Supported Tags:
 | **i** | Renders the Text as italic | `I am <i>italic</i>` |
 | **size** | Sets the fontSize to the Value supplied | `I am <size=10>small.</size> i am not.` |
 | **color** | Changes the Color of the Text | `I am <color=#c0ffeeff>Coffee</color> coloured` |
-for colors, Unity Supports an assortment of named Colors you can find in  **[this Table](https://docs.unity3d.com/2021.3/Documentation/Manual/StyledText.html#ColorNames).**
-
+For colors, Unity Supports an assortment of named Colors you can find in  **[this table](https://docs.unity3d.com/2021.3/Documentation/Manual/StyledText.html#ColorNames).**
 
 
 
 **< [Previous Component](/docs/components/UnityEngine.UI.Image.md)** | **[Back to Components](/docs/components/README.md)** | **[Next Component](/docs/components/UnityEngine.UI.Outline.md) >**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNzg5NDgzNCwtODQ1OTg0NDYsMTA2OT
-kzMTIzNiwxNTkyOTQ0MjQsMTc5ODU3NDA5OSwtNzg4MTMwNzA2
-LDg2NjEyOTk1MywtNDA1MTM2MDk5LC02OTY5NzY0MjMsLTYwND
-E4NzE2LC0xNTQwMTQ5NjEyLDIwOTI0NjY5MTddfQ==
+eyJoaXN0b3J5IjpbLTE2MDkyNTAzNzQsLTg0NTk4NDQ2LDEwNj
+k5MzEyMzYsMTU5Mjk0NDI0LDE3OTg1NzQwOTksLTc4ODEzMDcw
+Niw4NjYxMjk5NTMsLTQwNTEzNjA5OSwtNjk2OTc2NDIzLC02MD
+QxODcxNiwtMTU0MDE0OTYxMiwyMDkyNDY2OTE3XX0=
 -->
