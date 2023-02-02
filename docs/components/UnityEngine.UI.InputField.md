@@ -43,7 +43,7 @@ InputField specific Fields:
 ### needsKeyboard vs hudMenuInput
 while both prevent Vanilla behavior, they have some key differences that are good to keep in mind.
 needsKeyboard works well for normal use, but will close any Rust UI the player has open when the player selects an InputField with it enabled.
-this is the primary reason why hudMenuInput was added. it wont close Rust UI when selected, but wont prevent the player
+this is the primary reason why hudMenuInput was added. it wont close Rust UI when selected, but wont prevent the player from moving & executing keybinds.
 
 ### Selecting Text
 an underutilized Power of the InputField is that you can select its contents. This is helpful when creating forms & editors, but can also be used for other features. Like using it for displaying links to your website or discord, allowing players to select and copy it instead of having to type it out.
@@ -57,8 +57,8 @@ Depending on the  `lineType`  Setting, if it’s set to SingleLine or MultiLineS
 
 **< [Previous Component](/docs/components/UnityEngine.UI.Button.md)** | **[Back to Components](/docs/components/README.md)** | **[Next Component](/docs/components/NeedsX.md) >**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjQ1MTk0MzIsOTIyNTcyNDkwLC00Nz
-c2MTM0NCwtMTM5NzUzNDgzOCwtODk0NTg3NTE4LC0yODEwNjE5
-ODIsLTQ5MTU4MDQ1MCwtNDQ3MjM5MjM3LC01ODg4MDk3MTQsMj
-A1NjIzNTY2OCwtMTYxMjg3NTI3Ml19
+eyJoaXN0b3J5IjpbLTMxNDgxOTk2Myw5MjI1NzI0OTAsLTQ3Nz
+YxMzQ0LC0xMzk3NTM0ODM4LC04OTQ1ODc1MTgsLTI4MTA2MTk4
+MiwtNDkxNTgwNDUwLC00NDcyMzkyMzcsLTU4ODgwOTcxNCwyMD
+U2MjM1NjY4LC0xNjEyODc1MjcyXX0=
 -->
