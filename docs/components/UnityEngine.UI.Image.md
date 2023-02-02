@@ -52,6 +52,7 @@ The Image Component has convenient Ways to display any Item or Skin and is recom
 
 ## Items and Skins
 using the  `itemid`  &  `skinid`  fields, you can let the Client handle the displaying of related Images.
+NOTE: there is currently a bug when supplying a skinid of `0`, causing the player to crash, avoid including the field altogether if you don't intend to send a skinid
 
 Tip: use the ItemDefinition of your Item to easily find an Item’s ID & other useful Information
 ```c#
@@ -66,11 +67,11 @@ int itemid = itemDef.itemid;
 check the [RawImage](/docs/components/UnityEngine.UI.RawImage.md) Documentation to learn about Fields the Components share.
 **< [Previous Component](/docs/components/UnityEngine.UI.RawImage.md)** | **[Back to Components](/docs/components/README.md)** | **[Next Component](/docs/components/UnityEngine.UI.Text.md) >**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDAyMjY2NjUsLTQ4NTM0NDkwNyw3MT
-YzNTE0NjAsLTE1OTAzODEyOTMsLTE3MDYwMTc4MDQsLTIwMTYw
-NzA2MzYsNTY5ODQyMzE4LC0xODgxNjEyMjEsLTE2MDczMjQ1OD
-ksLTY2MjY2MTEyMCwxNDk4MzI0NDYzLDE3ODcxMzIxNTQsOTIw
-NzQyNDYwLC0xMzM1MzA0OTgyLC00OTQwMTAxOTEsNTg1MDg2NT
-gsLTEzMjkwMTc1OTIsMjA5Mzk2MjM2NCwtMTc1MDMyOTc0LDEw
-MDg0Nzk0MTBdfQ==
+eyJoaXN0b3J5IjpbLTIxODEwNTM4MywtMTgwMDIyNjY2NSwtND
+g1MzQ0OTA3LDcxNjM1MTQ2MCwtMTU5MDM4MTI5MywtMTcwNjAx
+NzgwNCwtMjAxNjA3MDYzNiw1Njk4NDIzMTgsLTE4ODE2MTIyMS
+wtMTYwNzMyNDU4OSwtNjYyNjYxMTIwLDE0OTgzMjQ0NjMsMTc4
+NzEzMjE1NCw5MjA3NDI0NjAsLTEzMzUzMDQ5ODIsLTQ5NDAxMD
+E5MSw1ODUwODY1OCwtMTMyOTAxNzU5MiwyMDkzOTYyMzY0LC0x
+NzUwMzI5NzRdfQ==
 -->
