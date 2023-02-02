@@ -40,6 +40,9 @@ InputField specific Fields:
 | `autofocus`  | key presence Field | Selects the field upon creation |
 | `fadeIn`    | float  | The Duration the Panel should take to fade in |
 
+### needsKeyboard vs hudMenuInput
+
+
 ### Selecting Text
 an underutilized Power of the InputField is that you can select its contents. This is helpful when creating forms & editors, but can also be used for other features. Like using it for displaying links to your website or discord, allowing players to select and copy it instead of having to type it out.
 
@@ -52,8 +55,8 @@ Depending on the  `lineType`  Setting, if it’s set to SingleLine or MultiLineS
 
 **< [Previous Component](/docs/components/UnityEngine.UI.Button.md)** | **[Back to Components](/docs/components/README.md)** | **[Next Component](/docs/components/NeedsX.md) >**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIyNTcyNDkwLC00Nzc2MTM0NCwtMTM5Nz
-UzNDgzOCwtODk0NTg3NTE4LC0yODEwNjE5ODIsLTQ5MTU4MDQ1
-MCwtNDQ3MjM5MjM3LC01ODg4MDk3MTQsMjA1NjIzNTY2OCwtMT
-YxMjg3NTI3Ml19
+eyJoaXN0b3J5IjpbLTkxMTMzMzczMiw5MjI1NzI0OTAsLTQ3Nz
+YxMzQ0LC0xMzk3NTM0ODM4LC04OTQ1ODc1MTgsLTI4MTA2MTk4
+MiwtNDkxNTgwNDUwLC00NDcyMzkyMzcsLTU4ODgwOTcxNCwyMD
+U2MjM1NjY4LC0xNjEyODc1MjcyXX0=
 -->
