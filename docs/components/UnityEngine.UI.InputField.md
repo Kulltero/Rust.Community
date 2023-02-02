@@ -41,7 +41,8 @@ InputField specific Fields:
 | `fadeIn`    | float  | The Duration the Panel should take to fade in |
 
 ### needsKeyboard vs hudMenuInput
-
+while both prevent Vanilla behavior, they have some key differences that should be adressed.
+needsKeyboard 
 
 ### Selecting Text
 an underutilized Power of the InputField is that you can select its contents. This is helpful when creating forms & editors, but can also be used for other features. Like using it for displaying links to your website or discord, allowing players to select and copy it instead of having to type it out.
@@ -55,8 +56,8 @@ Depending on the  `lineType`  Setting, if it’s set to SingleLine or MultiLineS
 
 **< [Previous Component](/docs/components/UnityEngine.UI.Button.md)** | **[Back to Components](/docs/components/README.md)** | **[Next Component](/docs/components/NeedsX.md) >**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMTMzMzczMiw5MjI1NzI0OTAsLTQ3Nz
-YxMzQ0LC0xMzk3NTM0ODM4LC04OTQ1ODc1MTgsLTI4MTA2MTk4
-MiwtNDkxNTgwNDUwLC00NDcyMzkyMzcsLTU4ODgwOTcxNCwyMD
-U2MjM1NjY4LC0xNjEyODc1MjcyXX0=
+eyJoaXN0b3J5IjpbODE0MDMyNTU0LDkyMjU3MjQ5MCwtNDc3Nj
+EzNDQsLTEzOTc1MzQ4MzgsLTg5NDU4NzUxOCwtMjgxMDYxOTgy
+LC00OTE1ODA0NTAsLTQ0NzIzOTIzNywtNTg4ODA5NzE0LDIwNT
+YyMzU2NjgsLTE2MTI4NzUyNzJdfQ==
 -->
