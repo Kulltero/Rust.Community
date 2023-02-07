@@ -34,8 +34,8 @@ layers are used when creating your top most Panel. They differ from Panels becau
 #### Available Layer values 
 - `Overall` the top most layer in front of all of Rust's UI 
 - `Overlay` 
+- `Hud.Menu`  the layer where rust positions menus like your inventory &
 - `Hud` 
-- `Hud.Menu` 
 - `Under` the lowermost layer, your UI will appear behind all of Rust's UI
 
 
@@ -76,7 +76,8 @@ The next Topic explains Components in detail
 **[Back to the Start](/README.md)** | **[Next Topic](/docs/components/README.md) >**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTUzNTAwOTYsODk3Mjg0MDMwLDg5ND
-U4Njk0OCwtMTA2NDY5NTM5MiwtNDIwNDgzNiwtMTMyMTk5MzQw
-Miw0NzA2NjcxMTksNjg4NjUyODAsLTExNjU4ODM5NjNdfQ==
+eyJoaXN0b3J5IjpbNjAxODY3MTk5LC0xMzE1MzUwMDk2LDg5Nz
+I4NDAzMCw4OTQ1ODY5NDgsLTEwNjQ2OTUzOTIsLTQyMDQ4MzYs
+LTEzMjE5OTM0MDIsNDcwNjY3MTE5LDY4ODY1MjgwLC0xMTY1OD
+gzOTYzXX0=
 -->
