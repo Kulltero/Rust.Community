@@ -9,7 +9,12 @@ The ScrollView Component is an Interactive Component that lets you fit more cont
 ```json
 {
 	"type": "UnityEngine.UI.ScrollView",
-	"color": "1.0 1.0 1.0 1.0",
+	"contentTransform": {
+		"anchormin": "0.0 0.0",
+		"anchormax": "1.0 1.0",
+		"offsetmin": "0.0 0.0",
+		"offsetmax": "1.0 1.0",
+	},
 	"distance": "1.0 -1.0",
 	"useGraphicAlpha": null
 }
@@ -26,5 +31,5 @@ Outline specific Fields:
 
 **< [Previous Component](/docs/components/UnityEngine.UI.Outline.md)** | **[Back to Components](/docs/components/README.md)**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1OTQ5NTMwNiwtMTYzMTAwNzk5OV19
+eyJoaXN0b3J5IjpbMjU2MzY2MDAwLC0xNjMxMDA3OTk5XX0=
 -->
