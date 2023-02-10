@@ -15,7 +15,7 @@ The Button Component is an Interactive Component that lets you execute Commands 
 	"color": "1.0 1.0 1.0 1.0",
 	"material": "",
 	"imagetype": "Simple",
-    "fadeIn": 0.0
+	"fadeIn": 0.0
 }
 ```
 Button-specific Fields:
@@ -35,7 +35,7 @@ click events bubble up, meaning that they will get triggered on every Panel unti
 
 **< [Previous Component](/docs/components/UnityEngine.UI.Outline.md)** | **[Back to Components](/docs/components/README.md)** | **[Next Component](/docs/components/UnityEngine.UI.InputField.md) >**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMjEzMDU0MCwyMDc3MDk2Njc4LDE2Mj
-Q1ODIzNCwtODc0NDk2NDIyLC0xMjU4ODc1NDYwLC0xMDcyMDU1
-MDQzXX0=
+eyJoaXN0b3J5IjpbLTE3MDAxODQzNiwtMzIyMTMwNTQwLDIwNz
+cwOTY2NzgsMTYyNDU4MjM0LC04NzQ0OTY0MjIsLTEyNTg4NzU0
+NjAsLTEwNzIwNTUwNDNdfQ==
 -->
