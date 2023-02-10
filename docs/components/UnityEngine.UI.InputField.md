@@ -21,7 +21,7 @@ The InputField Component is an Interactive Component that allows Players to ente
 	"needsKeyboard": null,
 	"hudMenuInput": null,
 	"autofocus": null,
-    "fadeIn": 0.0
+	"fadeIn": 0.0
 }
 ```
 > `password`, `needsKeyboard`, `hudMenuInput`,  and `autofocus` are key presence Fields, key presence Fields don't have a specific type and act as a Boolean.
@@ -58,8 +58,8 @@ Depending on the  `lineType`  Setting, if it’s set to SingleLine or MultiLineS
 
 **< [Previous Component](/docs/components/UnityEngine.UI.Button.md)** | **[Back to Components](/docs/components/README.md)** | **[Next Component](/docs/components/NeedsX.md) >**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTAzMDEwODksOTIyNTcyNDkwLC00Nz
-c2MTM0NCwtMTM5NzUzNDgzOCwtODk0NTg3NTE4LC0yODEwNjE5
-ODIsLTQ5MTU4MDQ1MCwtNDQ3MjM5MjM3LC01ODg4MDk3MTQsMj
-A1NjIzNTY2OCwtMTYxMjg3NTI3Ml19
+eyJoaXN0b3J5IjpbLTIwMzUyNzI2OTcsLTEzMTAzMDEwODksOT
+IyNTcyNDkwLC00Nzc2MTM0NCwtMTM5NzUzNDgzOCwtODk0NTg3
+NTE4LC0yODEwNjE5ODIsLTQ5MTU4MDQ1MCwtNDQ3MjM5MjM3LC
+01ODg4MDk3MTQsMjA1NjIzNTY2OCwtMTYxMjg3NTI3Ml19
 -->
