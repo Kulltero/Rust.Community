@@ -3,9 +3,9 @@
 
 - Identifier: `UnityEngine.UI.ScrollView`
 - Category: **Interactive**
-- Unity Documentation: **[ScrollView @ docs.unity3d.com](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/script-Outline.html)**
+- Unity Documentation: **[ScrollRect @ docs.unity3d.com](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/script-ScrollRect.html)**
 
-The Outline Component is an Effect Component that puts a colored outline on any Visual Component. It supports any Image, Text, Button, or Input field.
+The ScrollView Component is an Interactive Component that lets you fit more content on the screen by letting the player scroll or drag through your content. it supports both vertical and horizontal scrolling 
 ```json
 {
 	"type": "UnityEngine.UI.ScrollView",
@@ -26,5 +26,6 @@ Outline specific Fields:
 
 **< [Previous Component](/docs/components/UnityEngine.UI.Outline.md)** | **[Back to Components](/docs/components/README.md)**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzEwMDc5OTldfQ==
+eyJoaXN0b3J5IjpbLTE3NzI0NzY2OTYsLTE2MzEwMDc5OTldfQ
+==
 -->
