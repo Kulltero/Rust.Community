@@ -17,6 +17,7 @@ Holds the Custom User Interface System (CUI System), which lets developers creat
   - [InputField](/docs/components/UnityEngine.UI.InputField.md)
   - [NeedsCursor & NeedsKeyboard](/docs/components/NeedsX.md)
   - [Countdown](/docs/components/Countdown.md)
+  - [ScrollView](/docs/components/UnityEngine.UI.ScrollView.md)
 - [Tips, Bugs & Edge cases](/docs/Bugs-Tips.md)
 - [Credits & Acknowledgements](#Credits)
 
@@ -36,7 +37,8 @@ External Contributors & People who improved the CUI System
 ### Disclaimer
 The README & Documentation is Community maintained. It aims to give Developers a starting Point and educate them on effectively using CUIs for their Projects.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MjI2OTAzLDIwNzM3Mjg5NTgsMTkwNj
-c4ODUzOSw4NDg5MzI3NjksLTQ0OTI3NDk0MywtMjAxNTgxMTc0
-NSwtMTE0NDA4MDU3MywtMjEyNjQ3MjMwNV19
+eyJoaXN0b3J5IjpbMTgyNjc2MDcyNywtNTQyMjY5MDMsMjA3Mz
+cyODk1OCwxOTA2Nzg4NTM5LDg0ODkzMjc2OSwtNDQ5Mjc0OTQz
+LC0yMDE1ODExNzQ1LC0xMTQ0MDgwNTczLC0yMTI2NDcyMzA1XX
+0=
 -->
