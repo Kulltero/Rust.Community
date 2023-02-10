@@ -5,7 +5,7 @@
 - Category: **Interactive**
 - Unity Documentation: **[ScrollRect @ docs.unity3d.com](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/script-ScrollRect.html)**
 
-The ScrollView Component is an Interactive Component that lets you fit more content on the screen by letting the player scroll or drag through your content. it supports both vertical and horizontal scrolling 
+The ScrollView Component is an Interactive Component that lets you fit more content on the screen by letting the player scroll or drag through your content. it supports both vertical and horizontal scrolling.
 ```json
 {
 	"type": "UnityEngine.UI.ScrollView",
@@ -26,6 +26,5 @@ Outline specific Fields:
 
 **< [Previous Component](/docs/components/UnityEngine.UI.Outline.md)** | **[Back to Components](/docs/components/README.md)**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzI0NzY2OTYsLTE2MzEwMDc5OTldfQ
-==
+eyJoaXN0b3J5IjpbLTI1OTQ5NTMwNiwtMTYzMTAwNzk5OV19
 -->
