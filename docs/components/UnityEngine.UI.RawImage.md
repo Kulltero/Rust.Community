@@ -16,7 +16,7 @@ Tip: if you’re used to using hexadecimal, you can use this function to convert
 	"material": "",
 	"url": "",
 	"png": "",
-    "fadeIn": 0.0
+	"fadeIn": 0.0
 }
 ```
 RawImage specific Fields:
@@ -96,10 +96,10 @@ when using an image you can use the `color` property to modify the image's Color
 Before using RawImage, take a look at the Image Component to see if it’s better suited for your use case.
 **< [Previous Component](/docs/components/README.md)** | **[Back to Components](/docs/components/README.md)** | **[Next Component](/docs/components/UnityEngine.UI.Image.md) >**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MTU5NzU5OSwxMDM2NTg0OTkxLC02OD
-UxOTgxNCwtMTg4NTU2MjUwOCwtMTc5NTUyMzEyMiwtMjA1NTky
-Mzg5MSwtMTE5MTY5MTUyNCwtNDU5Nzg4OTIzLC0yNjU4NDYwMj
-IsMTQ4Mzg5MzA5OSwtMTQ0ODg2MjA2OSwtMTE1NjU3MzQ5OCwt
-MTY2ODkyMjE2LDcyMjA4MzQ1MCw1ODkzODcwMzQsMTk0NzQyND
-U4NSwtMjA4NTg1MzI2MV19
+eyJoaXN0b3J5IjpbLTE0NTI0OTkyOSwxNzkxNTk3NTk5LDEwMz
+Y1ODQ5OTEsLTY4NTE5ODE0LC0xODg1NTYyNTA4LC0xNzk1NTIz
+MTIyLC0yMDU1OTIzODkxLC0xMTkxNjkxNTI0LC00NTk3ODg5Mj
+MsLTI2NTg0NjAyMiwxNDgzODkzMDk5LC0xNDQ4ODYyMDY5LC0x
+MTU2NTczNDk4LC0xNjY4OTIyMTYsNzIyMDgzNDUwLDU4OTM4Nz
+AzNCwxOTQ3NDI0NTg1LC0yMDg1ODUzMjYxXX0=
 -->
