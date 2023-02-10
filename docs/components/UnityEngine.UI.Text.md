@@ -15,7 +15,7 @@ The Text Component is a Visual Component that allows you to display any Text you
 	"align": "UpperLeft",
 	"color": "1.0 1.0 1.0 1.0",
 	"verticalOverflow": "Truncate",
-    "fadeIn": 0.0
+	"fadeIn": 0.0
 }
 ```
 Text-specific Fields:
@@ -68,8 +68,9 @@ For colors, Unity Supports an assortment of named Colors you can find in  **[thi
 
 **< [Previous Component](/docs/components/UnityEngine.UI.Image.md)** | **[Back to Components](/docs/components/README.md)** | **[Next Component](/docs/components/UnityEngine.UI.Outline.md) >**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0Mjc0ODUyOSwtODQ1OTg0NDYsMTA2OT
-kzMTIzNiwxNTkyOTQ0MjQsMTc5ODU3NDA5OSwtNzg4MTMwNzA2
-LDg2NjEyOTk1MywtNDA1MTM2MDk5LC02OTY5NzY0MjMsLTYwND
-E4NzE2LC0xNTQwMTQ5NjEyLDIwOTI0NjY5MTddfQ==
+eyJoaXN0b3J5IjpbMTA5MDYwODIwMSwxMzQyNzQ4NTI5LC04ND
+U5ODQ0NiwxMDY5OTMxMjM2LDE1OTI5NDQyNCwxNzk4NTc0MDk5
+LC03ODgxMzA3MDYsODY2MTI5OTUzLC00MDUxMzYwOTksLTY5Nj
+k3NjQyMywtNjA0MTg3MTYsLTE1NDAxNDk2MTIsMjA5MjQ2Njkx
+N119
 -->
