@@ -18,14 +18,14 @@ The ScrollView Component is an Interactive Component that lets you fit more cont
 	"horizontal": false,
 	"vertical": false,
 	"movementType": "Clamped",
-	"elasticity": "Clamped",
-	"useGraphicAlpha": null
+	"elasticity": 0.1,
+	"inertia": false,
+	"decelerationRate": 0.135,
+	"scrollSensitivity": 1.0
 }
 ```
-> `useGraphicAlpha` is a key presence Field, key presence Fields don't have a specific type and act as a Boolean.
-> If the key is present it equals true, if absent it equals false.
 
-Outline specific Fields:
+ScrollView specific Fields:
 | Key         | Type   | Notes                |
 | :---------- | :----- | :------------------- |
 | `color`     | string | The Color of your Outline |
@@ -34,6 +34,6 @@ Outline specific Fields:
 
 **< [Previous Component](/docs/components/UnityEngine.UI.Outline.md)** | **[Back to Components](/docs/components/README.md)**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTExNjUxMjIsLTE2MzEwMDc5OTldfQ
+eyJoaXN0b3J5IjpbLTE2MzMzNzI5MjQsLTE2MzEwMDc5OTldfQ
 ==
 -->
