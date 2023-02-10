@@ -24,7 +24,7 @@ the JSON Schema to send UI to the Player consists of a List of Elements, where e
 | `name` | string | The identifier of your panel, needed when destroying UI or adding panels inside this one |
 | `parent` | string | Tells the client which Panel or Layer to Parent to. **[Needs to be a valid Panel or Layer name](/docs/Bugs-Tips.md#addui-unknown-parent-for-name--parent)** |
 | `components` |List of Components | One or more Components, without these there’s no point in sending a panel |
-| `fadeOut` | float | Makes the Panel fade out instead of disappearing immediately.  _Currently doesn’t fade out any child panels._ |
+| `fadeOut` | float | Makes the Panel & its children fade out instead of disappearing immediately. |
 | `destroyUi` | string | Destroys the Panel specified in the string before creating your Panel. Useful **[preventing flickering](/docs/Bugs-Tips.md#flickering-when-destroying--re-sending-ui-on-the-same-frame)** when updating UI. |
 
 
@@ -77,8 +77,8 @@ The next Topic explains Components in detail
 **[Back to the Start](/README.md)** | **[Next Topic](/docs/components/README.md) >**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU2OTM1MzY2LC0xMzE1MzUwMDk2LDg5Nz
-I4NDAzMCw4OTQ1ODY5NDgsLTEwNjQ2OTUzOTIsLTQyMDQ4MzYs
-LTEzMjE5OTM0MDIsNDcwNjY3MTE5LDY4ODY1MjgwLC0xMTY1OD
-gzOTYzXX0=
+eyJoaXN0b3J5IjpbOTgxOTM5MzIyLDQ1NjkzNTM2NiwtMTMxNT
+M1MDA5Niw4OTcyODQwMzAsODk0NTg2OTQ4LC0xMDY0Njk1Mzky
+LC00MjA0ODM2LC0xMzIxOTkzNDAyLDQ3MDY2NzExOSw2ODg2NT
+I4MCwtMTE2NTg4Mzk2M119
 -->
