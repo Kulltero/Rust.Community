@@ -16,7 +16,7 @@ The Image is a Visual Component that allows you to display images from your Serv
 	"png": "",
 	"itemid": 0,
 	"skinid": 0,
-    "fadeIn": 0.0
+	"fadeIn": 0.0
 }
 ```
 RawImage specific Fields:
@@ -67,11 +67,11 @@ int itemid = itemDef.itemid;
 check the [RawImage](/docs/components/UnityEngine.UI.RawImage.md) Documentation to learn about Fields the Components share.
 **< [Previous Component](/docs/components/UnityEngine.UI.RawImage.md)** | **[Back to Components](/docs/components/README.md)** | **[Next Component](/docs/components/UnityEngine.UI.Text.md) >**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxODEwNTM4MywtMTgwMDIyNjY2NSwtND
-g1MzQ0OTA3LDcxNjM1MTQ2MCwtMTU5MDM4MTI5MywtMTcwNjAx
-NzgwNCwtMjAxNjA3MDYzNiw1Njk4NDIzMTgsLTE4ODE2MTIyMS
-wtMTYwNzMyNDU4OSwtNjYyNjYxMTIwLDE0OTgzMjQ0NjMsMTc4
-NzEzMjE1NCw5MjA3NDI0NjAsLTEzMzUzMDQ5ODIsLTQ5NDAxMD
-E5MSw1ODUwODY1OCwtMTMyOTAxNzU5MiwyMDkzOTYyMzY0LC0x
-NzUwMzI5NzRdfQ==
+eyJoaXN0b3J5IjpbLTUwMzEyODMxLC0yMTgxMDUzODMsLTE4MD
+AyMjY2NjUsLTQ4NTM0NDkwNyw3MTYzNTE0NjAsLTE1OTAzODEy
+OTMsLTE3MDYwMTc4MDQsLTIwMTYwNzA2MzYsNTY5ODQyMzE4LC
+0xODgxNjEyMjEsLTE2MDczMjQ1ODksLTY2MjY2MTEyMCwxNDk4
+MzI0NDYzLDE3ODcxMzIxNTQsOTIwNzQyNDYwLC0xMzM1MzA0OT
+gyLC00OTQwMTAxOTEsNTg1MDg2NTgsLTEzMjkwMTc1OTIsMjA5
+Mzk2MjM2NF19
 -->
