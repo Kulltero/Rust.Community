@@ -33,11 +33,12 @@ ScrollView specific Fields:
 | `vertical`  | bool | if the ScrollView should be scrollable verticalally |
 | `movementType` | string (enum `ScrollRect.MovementType`) | defines the movement behaviour of the ScrollView |
 | `elasticity`  | float | sets the bouncyness of the ScrollView if movementType is set to `Elastic` |
-| `inertia`  | bool | if the ScrollView should be scrollable horizontally |
+| `inertia`  | bool | if the ScrollView should continue moving after the player stops dragging'scrolling |
 
 **< [Previous Component](/docs/components/UnityEngine.UI.Outline.md)** | **[Back to Components](/docs/components/README.md)**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkxMzk3NDg1LDQ4MTgxNDQ1OSwtMTM0OT
-g3NDgzNSwxMTc5ODI4MjMyLDE1MTYwNjY3MjIsMjE0NDEzNzEz
-NCwtMTYzMzM3MjkyNCwtMTYzMTAwNzk5OV19
+eyJoaXN0b3J5IjpbLTgwNTk3Mjk0MywyOTEzOTc0ODUsNDgxOD
+E0NDU5LC0xMzQ5ODc0ODM1LDExNzk4MjgyMzIsMTUxNjA2Njcy
+MiwyMTQ0MTM3MTM0LC0xNjMzMzcyOTI0LC0xNjMxMDA3OTk5XX
+0=
 -->
