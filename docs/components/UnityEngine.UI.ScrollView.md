@@ -62,15 +62,15 @@ inertia is the setting that controls if the Viewport should immediately stop scr
 using the `decelerationRate` setting, you can control how fast the scrolling should slow down.
 
 ### a note on performance
-an important thing to remember when using ScrollViews is that content outside the viewport still adds a performance cost. so its discouraged to 
+an important thing to remember when using ScrollViews is that content outside the viewport still adds a performance cost. so its discouraged to show large lists with 100's or 1000's of elements. if you want to use a large dataset, try using a search feature or adding a "Load More" button to 
  
 
 **< [Previous Component](/docs/components/UnityEngine.UI.Outline.md)** | **[Back to Components](/docs/components/README.md)**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA3Mjk5NzgwLC00OTE0OTQ5NjEsNjc4ND
-Q1MDc2LC0xMjk5Mzc0OTM5LDQ0MDc1NjAwNCwtNjIwODcyMjc3
-LC03NzE5NjU4NjIsLTkwODYyMDMyMywxMzQwMTczNTcxLDI5MT
-M5NzQ4NSw0ODE4MTQ0NTksLTEzNDk4NzQ4MzUsMTE3OTgyODIz
-MiwxNTE2MDY2NzIyLDIxNDQxMzcxMzQsLTE2MzMzNzI5MjQsLT
-E2MzEwMDc5OTldfQ==
+eyJoaXN0b3J5IjpbLTYwOTMwNTc5MywtNDkxNDk0OTYxLDY3OD
+Q0NTA3NiwtMTI5OTM3NDkzOSw0NDA3NTYwMDQsLTYyMDg3MjI3
+NywtNzcxOTY1ODYyLC05MDg2MjAzMjMsMTM0MDE3MzU3MSwyOT
+EzOTc0ODUsNDgxODE0NDU5LC0xMzQ5ODc0ODM1LDExNzk4Mjgy
+MzIsMTUxNjA2NjcyMiwyMTQ0MTM3MTM0LC0xNjMzMzcyOTI0LC
+0xNjMxMDA3OTk5XX0=
 -->
