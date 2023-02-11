@@ -39,11 +39,11 @@ ScrollView specific Fields:
 ## Working with a ScrollView
 Using a ScrollView allows us to better lay out our content as we dont have to worry about cramming as much content onto the screen as possible. or using a bulky pagination system.
 
-the ScrollView uses 2 Panels under the hood
+the ScrollView uses 2 Panels under the hood. the panel you create the component on is the main panel and acts like the viewport. its size will define the visible part of the content.
 
 **< [Previous Component](/docs/components/UnityEngine.UI.Outline.md)** | **[Back to Components](/docs/components/README.md)**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNDA3NzMwNiwtOTA4NjIwMzIzLDEzND
+eyJoaXN0b3J5IjpbLTc3MTk2NTg2MiwtOTA4NjIwMzIzLDEzND
 AxNzM1NzEsMjkxMzk3NDg1LDQ4MTgxNDQ1OSwtMTM0OTg3NDgz
 NSwxMTc5ODI4MjMyLDE1MTYwNjY3MjIsMjE0NDEzNzEzNCwtMT
 YzMzM3MjkyNCwtMTYzMTAwNzk5OV19
