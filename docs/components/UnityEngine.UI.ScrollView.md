@@ -31,10 +31,10 @@ ScrollView specific Fields:
 | `contentTransform`     | RectTransform | the Size of the content. needs to atleast match the size of the ScrollView  |
 | `horizontal`  | bool | if the ScrollView should be scrollable horizontally |
 | `vertical`  | bool | if the ScrollView should be scrollable verticalally |
-| `useGraphicAlpha` | string (enum `InputField.LineType`) | Multiplies the Alpha of the graphic onto the color of the Outline |
+| `movementType` | string (enum `InputField.LineType`) | defines  |
 
 **< [Previous Component](/docs/components/UnityEngine.UI.Outline.md)** | **[Back to Components](/docs/components/README.md)**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNTQyMDkwNywyMTQ0MTM3MTM0LC0xNj
+eyJoaXN0b3J5IjpbMTUxNjA2NjcyMiwyMTQ0MTM3MTM0LC0xNj
 MzMzcyOTI0LC0xNjMxMDA3OTk5XX0=
 -->
