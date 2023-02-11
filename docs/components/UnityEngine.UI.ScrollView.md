@@ -56,11 +56,14 @@ if the setting `Elastic` is used, the ScrollView will let the user scroll past t
 
 the `elasticity` setting can be used to let the Viewport bounce further into the content again.
 
+### Using Inertia
+inertia is the setting that controls if the Viewport should immediately stop scrolling 
+
  
 
 **< [Previous Component](/docs/components/UnityEngine.UI.Outline.md)** | **[Back to Components](/docs/components/README.md)**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMDA5Mzg5MCw2Nzg0NDUwNzYsLTEyOT
+eyJoaXN0b3J5IjpbLTQ5MTQ5NDk2MSw2Nzg0NDUwNzYsLTEyOT
 kzNzQ5MzksNDQwNzU2MDA0LC02MjA4NzIyNzcsLTc3MTk2NTg2
 MiwtOTA4NjIwMzIzLDEzNDAxNzM1NzEsMjkxMzk3NDg1LDQ4MT
 gxNDQ1OSwtMTM0OTg3NDgzNSwxMTc5ODI4MjMyLDE1MTYwNjY3
