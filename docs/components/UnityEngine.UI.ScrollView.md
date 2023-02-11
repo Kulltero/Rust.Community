@@ -1,11 +1,10 @@
 # Components: ScrollView
 **< [Previous Component](/docs/components/UnityEngine.UI.Outline.md)** | **[Back to Components](/docs/components/README.md)**
+-   Identifier:  `UnityEngine.UI.ScrollView`
+-   Category:  **Interactive**
+-   Unity Documentation:  **[ScrollRect @ docs.unity3d.com](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/script-ScrollRect.html)**
 
-- Identifier: `UnityEngine.UI.ScrollView`
-- Category: **Interactive**
-- Unity Documentation: **[ScrollRect @ docs.unity3d.com](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/script-ScrollRect.html)**
-
-The ScrollView Component is an Interactive Component that lets you fit more content on the screen by letting the player scroll or drag through your content. it supports both vertical and horizontal scrolling.
+The ScrollView Component is an Interactive Component that lets you fit more content on the screen by letting the player scroll or drag through your content. It supports both vertical and horizontal scrolling.
 ```json
 {
 	"type": "UnityEngine.UI.ScrollView",
@@ -28,7 +27,7 @@ The ScrollView Component is an Interactive Component that lets you fit more cont
 ScrollView specific Fields:
 | Key         | Type   | Notes                |
 | :---------- | :----- | :------------------- |
-| `contentTransform`     | RectTransform | the Size of the content. needs to atleast match the size of the ScrollView  |
+| `contentTransform`     | RectTransform | the Size of the content. Needs to at least match the size of the ScrollView.  |
 | `horizontal`  | bool | if the ScrollView should be scrollable horizontally |
 | `vertical`  | bool | if the ScrollView should be scrollable verticalally |
 | `movementType` | string (enum `ScrollRect.MovementType`) | defines the movement behaviour of the ScrollView |
@@ -69,10 +68,10 @@ another thing to know is that the Inertia & Elastic settings can be less perform
 
 **< [Previous Component](/docs/components/UnityEngine.UI.Outline.md)** | **[Back to Components](/docs/components/README.md)**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NDE4ODczMCwtNDkxNDk0OTYxLDY3OD
-Q0NTA3NiwtMTI5OTM3NDkzOSw0NDA3NTYwMDQsLTYyMDg3MjI3
-NywtNzcxOTY1ODYyLC05MDg2MjAzMjMsMTM0MDE3MzU3MSwyOT
-EzOTc0ODUsNDgxODE0NDU5LC0xMzQ5ODc0ODM1LDExNzk4Mjgy
-MzIsMTUxNjA2NjcyMiwyMTQ0MTM3MTM0LC0xNjMzMzcyOTI0LC
-0xNjMxMDA3OTk5XX0=
+eyJoaXN0b3J5IjpbMjI4OTEwOTI2LDE4NjQxODg3MzAsLTQ5MT
+Q5NDk2MSw2Nzg0NDUwNzYsLTEyOTkzNzQ5MzksNDQwNzU2MDA0
+LC02MjA4NzIyNzcsLTc3MTk2NTg2MiwtOTA4NjIwMzIzLDEzND
+AxNzM1NzEsMjkxMzk3NDg1LDQ4MTgxNDQ1OSwtMTM0OTg3NDgz
+NSwxMTc5ODI4MjMyLDE1MTYwNjY3MjIsMjE0NDEzNzEzNCwtMT
+YzMzM3MjkyNCwtMTYzMTAwNzk5OV19
 -->
