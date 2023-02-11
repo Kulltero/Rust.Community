@@ -48,12 +48,16 @@ the second panel is created by the ScrollView Component to hold all of its conte
 ## Elasticity, Inertia & Movement
 the ScrollView Component has a range of options to customize the scrolling behavior. the most important setting is the `movementType` setting, as it defines how the ScrollView should react when the edge of its content is reached.
 
+if the setting `Unrestricted` is used, the ScrollView will continue to let the user scroll past the bounds of the content. this is often unwanted behaviour as its easy to loose the content if a user scrolls too far or flicks too hard.
+
+if the setting `Clamped` is used, the ScrollView will hard stop at the edge of its content
+
 **< [Previous Component](/docs/components/UnityEngine.UI.Outline.md)** | **[Back to Components](/docs/components/README.md)**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk4NTYzMjYyLDY3ODQ0NTA3NiwtMTI5OT
-M3NDkzOSw0NDA3NTYwMDQsLTYyMDg3MjI3NywtNzcxOTY1ODYy
-LC05MDg2MjAzMjMsMTM0MDE3MzU3MSwyOTEzOTc0ODUsNDgxOD
-E0NDU5LC0xMzQ5ODc0ODM1LDExNzk4MjgyMzIsMTUxNjA2Njcy
-MiwyMTQ0MTM3MTM0LC0xNjMzMzcyOTI0LC0xNjMxMDA3OTk5XX
-0=
+eyJoaXN0b3J5IjpbMTUzMTYwOTE5MSw2Nzg0NDUwNzYsLTEyOT
+kzNzQ5MzksNDQwNzU2MDA0LC02MjA4NzIyNzcsLTc3MTk2NTg2
+MiwtOTA4NjIwMzIzLDEzNDAxNzM1NzEsMjkxMzk3NDg1LDQ4MT
+gxNDQ1OSwtMTM0OTg3NDgzNSwxMTc5ODI4MjMyLDE1MTYwNjY3
+MjIsMjE0NDEzNzEzNCwtMTYzMzM3MjkyNCwtMTYzMTAwNzk5OV
+19
 -->
