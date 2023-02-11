@@ -57,16 +57,18 @@ if the setting `Elastic` is used, the ScrollView will let the user scroll past t
 the `elasticity` setting can be used to let the Viewport bounce further into the content again.
 
 ### Using Inertia
-inertia is the setting that controls if the Viewport should immediately stop scrolling 
+inertia is the setting that controls if the Viewport should immediately stop scrolling or slow down over time. combining this setting with elasticity is often used to recreate the scrolling behaviour on a smartphone.
+
+using the `decelerationRate` setting, you can control initial
 
  
 
 **< [Previous Component](/docs/components/UnityEngine.UI.Outline.md)** | **[Back to Components](/docs/components/README.md)**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MTQ5NDk2MSw2Nzg0NDUwNzYsLTEyOT
-kzNzQ5MzksNDQwNzU2MDA0LC02MjA4NzIyNzcsLTc3MTk2NTg2
-MiwtOTA4NjIwMzIzLDEzNDAxNzM1NzEsMjkxMzk3NDg1LDQ4MT
-gxNDQ1OSwtMTM0OTg3NDgzNSwxMTc5ODI4MjMyLDE1MTYwNjY3
-MjIsMjE0NDEzNzEzNCwtMTYzMzM3MjkyNCwtMTYzMTAwNzk5OV
-19
+eyJoaXN0b3J5IjpbNTY4MTkzNjQsLTQ5MTQ5NDk2MSw2Nzg0ND
+UwNzYsLTEyOTkzNzQ5MzksNDQwNzU2MDA0LC02MjA4NzIyNzcs
+LTc3MTk2NTg2MiwtOTA4NjIwMzIzLDEzNDAxNzM1NzEsMjkxMz
+k3NDg1LDQ4MTgxNDQ1OSwtMTM0OTg3NDgzNSwxMTc5ODI4MjMy
+LDE1MTYwNjY3MjIsMjE0NDEzNzEzNCwtMTYzMzM3MjkyNCwtMT
+YzMTAwNzk5OV19
 -->
