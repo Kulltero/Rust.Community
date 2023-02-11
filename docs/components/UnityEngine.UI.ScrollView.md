@@ -41,12 +41,14 @@ Using a ScrollView allows us to better lay out our content as we dont have to wo
 
 the ScrollView uses 2 Panels under the hood. the panel you create the component on is the main panel and acts like the viewport. its size will define the visible part of the content.
 
-the second panel is created by the ScrollView Component to hold all of its content. the children
+the second panel is created by the ScrollView Component to hold all of its content. its size is defined by the `contentTransform` property and is automatically positioned so the upper left corner is aligned with the Viewport.
+
+NOTE: 
 
 **< [Previous Component](/docs/components/UnityEngine.UI.Outline.md)** | **[Back to Components](/docs/components/README.md)**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzODg2MjA3LC03NzE5NjU4NjIsLTkwOD
-YyMDMyMywxMzQwMTczNTcxLDI5MTM5NzQ4NSw0ODE4MTQ0NTks
-LTEzNDk4NzQ4MzUsMTE3OTgyODIzMiwxNTE2MDY2NzIyLDIxND
-QxMzcxMzQsLTE2MzMzNzI5MjQsLTE2MzEwMDc5OTldfQ==
+eyJoaXN0b3J5IjpbLTYyMDg3MjI3NywtNzcxOTY1ODYyLC05MD
+g2MjAzMjMsMTM0MDE3MzU3MSwyOTEzOTc0ODUsNDgxODE0NDU5
+LC0xMzQ5ODc0ODM1LDExNzk4MjgyMzIsMTUxNjA2NjcyMiwyMT
+Q0MTM3MTM0LC0xNjMzMzcyOTI0LC0xNjMxMDA3OTk5XX0=
 -->
