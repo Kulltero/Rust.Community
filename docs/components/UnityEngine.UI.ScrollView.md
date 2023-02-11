@@ -45,11 +45,14 @@ the second panel is created by the ScrollView Component to hold all of its conte
 
 > NOTE: the CUI system will automatically Parent any future children of the ScrollView to its content panel, to ensure all children are scrollable
 
+## Elasticity, Inertia & Movement
+
+
 **< [Previous Component](/docs/components/UnityEngine.UI.Outline.md)** | **[Back to Components](/docs/components/README.md)**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NDAwOTg1NSw0NDA3NTYwMDQsLTYyMD
-g3MjI3NywtNzcxOTY1ODYyLC05MDg2MjAzMjMsMTM0MDE3MzU3
-MSwyOTEzOTc0ODUsNDgxODE0NDU5LC0xMzQ5ODc0ODM1LDExNz
-k4MjgyMzIsMTUxNjA2NjcyMiwyMTQ0MTM3MTM0LC0xNjMzMzcy
-OTI0LC0xNjMxMDA3OTk5XX0=
+eyJoaXN0b3J5IjpbLTEyOTkzNzQ5MzksNDQwNzU2MDA0LC02Mj
+A4NzIyNzcsLTc3MTk2NTg2MiwtOTA4NjIwMzIzLDEzNDAxNzM1
+NzEsMjkxMzk3NDg1LDQ4MTgxNDQ1OSwtMTM0OTg3NDgzNSwxMT
+c5ODI4MjMyLDE1MTYwNjY3MjIsMjE0NDEzNzEzNCwtMTYzMzM3
+MjkyNCwtMTYzMTAwNzk5OV19
 -->
