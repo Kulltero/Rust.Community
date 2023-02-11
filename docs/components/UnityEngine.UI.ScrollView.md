@@ -52,13 +52,15 @@ if the setting `Unrestricted` is used, the ScrollView will continue to let the u
 
 if the setting `Clamped` is used, the ScrollView will hard stop at the edge of its content. it will not allow the user to scroll past the edge of the content.
 
-if the setting `Elastic` is used, the ScrollView will let the user scroll past the edge of the content, but will 'bounce' back to the edge based on the elasticity setting.
+if the setting `Elastic` is used, the ScrollView will let the user scroll past the edge of the content, but will 'bounce' back to the edge the moment the user lets go.
+
+the `elasticity` setting can be used to let the Viewport bounce further into the content again.
 
  
 
 **< [Previous Component](/docs/components/UnityEngine.UI.Outline.md)** | **[Back to Components](/docs/components/README.md)**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NTMzODQ5Miw2Nzg0NDUwNzYsLTEyOT
+eyJoaXN0b3J5IjpbMTMzMDA5Mzg5MCw2Nzg0NDUwNzYsLTEyOT
 kzNzQ5MzksNDQwNzU2MDA0LC02MjA4NzIyNzcsLTc3MTk2NTg2
 MiwtOTA4NjIwMzIzLDEzNDAxNzM1NzEsMjkxMzk3NDg1LDQ4MT
 gxNDQ1OSwtMTM0OTg3NDgzNSwxMTc5ODI4MjMyLDE1MTYwNjY3
