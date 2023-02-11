@@ -64,12 +64,12 @@ using the `decelerationRate` setting, you can control how fast the scrolling sho
 ### a note on performance
 an important thing to remember when using ScrollViews is that content outside the viewport still adds a performance cost. so its discouraged to show large lists with 100's or 1000's of elements. if you want to use a large dataset, try creating a search feature or adding a "Load More" button to limit how many items are shown at once.
 
-another thing to know is that the Inertia & Elastic settings can be less performant than a Clamped ScrollView without Inertia. this is because every frame the ScrollView scrolls the Canvas needs to update. this is fine when the player actively scroll
+another thing to know is that the Inertia & Elastic settings can be less performant than a Clamped ScrollView without Inertia. this is because these settings often continue to scroll the viewport long after the player has let go, even if it has _visually_ stopped scrolling, it often still updates under the hood causing useless Canvas updates.
  
 
 **< [Previous Component](/docs/components/UnityEngine.UI.Outline.md)** | **[Back to Components](/docs/components/README.md)**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MzY0NzE2NywtNDkxNDk0OTYxLDY3OD
+eyJoaXN0b3J5IjpbMTg2NDE4ODczMCwtNDkxNDk0OTYxLDY3OD
 Q0NTA3NiwtMTI5OTM3NDkzOSw0NDA3NTYwMDQsLTYyMDg3MjI3
 NywtNzcxOTY1ODYyLC05MDg2MjAzMjMsMTM0MDE3MzU3MSwyOT
 EzOTc0ODUsNDgxODE0NDU5LC0xMzQ5ODc0ODM1LDExNzk4Mjgy
