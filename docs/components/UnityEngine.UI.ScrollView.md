@@ -43,13 +43,13 @@ the ScrollView uses 2 Panels under the hood. the panel you create the component 
 
 the second panel is created by the ScrollView Component to hold all of its content. its size is defined by the `contentTransform` property and is automatically positioned so the upper left corner is aligned with the Viewport.
 
-> NOTE: the CUI system will automatically Parent any future children of the ScrollView to its content panel to 
+> NOTE: the CUI system will automatically Parent any future children of the ScrollView to its content panel, to ensure all children are scrollable
 
 **< [Previous Component](/docs/components/UnityEngine.UI.Outline.md)** | **[Back to Components](/docs/components/README.md)**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQwNzU2MDA0LC02MjA4NzIyNzcsLTc3MT
-k2NTg2MiwtOTA4NjIwMzIzLDEzNDAxNzM1NzEsMjkxMzk3NDg1
-LDQ4MTgxNDQ1OSwtMTM0OTg3NDgzNSwxMTc5ODI4MjMyLDE1MT
-YwNjY3MjIsMjE0NDEzNzEzNCwtMTYzMzM3MjkyNCwtMTYzMTAw
-Nzk5OV19
+eyJoaXN0b3J5IjpbMjA1NDAwOTg1NSw0NDA3NTYwMDQsLTYyMD
+g3MjI3NywtNzcxOTY1ODYyLC05MDg2MjAzMjMsMTM0MDE3MzU3
+MSwyOTEzOTc0ODUsNDgxODE0NDU5LC0xMzQ5ODc0ODM1LDExNz
+k4MjgyMzIsMTUxNjA2NjcyMiwyMTQ0MTM3MTM0LC0xNjMzMzcy
+OTI0LC0xNjMxMDA3OTk5XX0=
 -->
