@@ -46,13 +46,14 @@ the second panel is created by the ScrollView Component to hold all of its conte
 > NOTE: the CUI system will automatically Parent any future children of the ScrollView to its content panel, to ensure all children are scrollable
 
 ## Elasticity, Inertia & Movement
-the ScrollView Component has a range of options to customize the scrolling behavior. 
+the ScrollView Component has a range of options to customize the scrolling behavior. the most important setting is the `movementType` setting, as it defines how the ScrollView should react when the edge of its content is reached.
 
 **< [Previous Component](/docs/components/UnityEngine.UI.Outline.md)** | **[Back to Components](/docs/components/README.md)**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc4NDQ1MDc2LC0xMjk5Mzc0OTM5LDQ0MD
-c1NjAwNCwtNjIwODcyMjc3LC03NzE5NjU4NjIsLTkwODYyMDMy
-MywxMzQwMTczNTcxLDI5MTM5NzQ4NSw0ODE4MTQ0NTksLTEzND
-k4NzQ4MzUsMTE3OTgyODIzMiwxNTE2MDY2NzIyLDIxNDQxMzcx
-MzQsLTE2MzMzNzI5MjQsLTE2MzEwMDc5OTldfQ==
+eyJoaXN0b3J5IjpbOTk4NTYzMjYyLDY3ODQ0NTA3NiwtMTI5OT
+M3NDkzOSw0NDA3NTYwMDQsLTYyMDg3MjI3NywtNzcxOTY1ODYy
+LC05MDg2MjAzMjMsMTM0MDE3MzU3MSwyOTEzOTc0ODUsNDgxOD
+E0NDU5LC0xMzQ5ODc0ODM1LDExNzk4MjgyMzIsMTUxNjA2Njcy
+MiwyMTQ0MTM3MTM0LC0xNjMzMzcyOTI0LC0xNjMxMDA3OTk5XX
+0=
 -->
