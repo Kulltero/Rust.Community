@@ -36,10 +36,13 @@ ScrollView specific Fields:
 | `inertia`  | bool | if the ScrollView should continue moving after the player stops dragging'scrolling |
 | `decelerationRate`  | float | only used with inertia, higher decelerationRate = stops faster (visually) |
 
+## Positioning with a ScrollView
+Using a ScrollView allows us to better lay out our content as we dont have to worry about cramming as much content int
+
 **< [Previous Component](/docs/components/UnityEngine.UI.Outline.md)** | **[Back to Components](/docs/components/README.md)**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3OTk4MzkyLDEzNDAxNzM1NzEsMjkxMz
-k3NDg1LDQ4MTgxNDQ1OSwtMTM0OTg3NDgzNSwxMTc5ODI4MjMy
-LDE1MTYwNjY3MjIsMjE0NDEzNzEzNCwtMTYzMzM3MjkyNCwtMT
-YzMTAwNzk5OV19
+eyJoaXN0b3J5IjpbMTU1Mzg4NTYxMiwxMzQwMTczNTcxLDI5MT
+M5NzQ4NSw0ODE4MTQ0NTksLTEzNDk4NzQ4MzUsMTE3OTgyODIz
+MiwxNTE2MDY2NzIyLDIxNDQxMzcxMzQsLTE2MzMzNzI5MjQsLT
+E2MzEwMDc5OTldfQ==
 -->
